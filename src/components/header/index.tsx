@@ -35,7 +35,7 @@ const Header: React.FC = ()=> {
                 </ul>
             </nav>
 
-            <Button linkTo="#">
+            <Button linkTo="#" bg="#0328EE" color="#FFFFFF">
                 download app
             </Button>
         </header>

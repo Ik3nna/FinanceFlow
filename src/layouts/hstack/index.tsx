@@ -1,11 +1,8 @@
 import React from 'react'
 import styles from "./index.module.css";
+import { StackProps } from '../stack';
 
-interface LayoutProps {
-    children: React.ReactNode;
-}
-
-const Layout: React.FC<LayoutProps> = ({ children }) => {
+const Hstack: React.FC<StackProps> = ({ children }) => {
   return (
     <section className={styles.container}>
         {children}
@@ -13,4 +10,4 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   )
 }
 
-export default Layout;
+export default Hstack;
