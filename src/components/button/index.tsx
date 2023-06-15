@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import styles from "./index.module.css";
 
-export interface ButtonProps {
-    children: React.ReactNode;
-    linkTo?: string
+interface ButtonProps {
+  children: React.ReactNode;
+  linkTo?: string
 }
 
 const Button: React.FC<ButtonProps> = ({ children, linkTo }) => {
