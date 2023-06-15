@@ -1,7 +1,10 @@
 import React from "react";
 import styles from "./index.module.css";
-import logo from "../../assets/logo.svg";
+import Button from "../button";
 import { NavLink } from "react-router-dom";
+
+// Assets
+import logo from "../../assets/logo.svg";
 
 const Header: React.FC = ()=> {
     const navItem = [
@@ -31,6 +34,10 @@ const Header: React.FC = ()=> {
                     )}
                 </ul>
             </nav>
+
+            <Button linkTo="#">
+                download app
+            </Button>
         </header>
     );
 }
