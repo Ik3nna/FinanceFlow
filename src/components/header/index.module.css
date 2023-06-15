@@ -10,6 +10,7 @@
 header img {
     width: 154px;
     height: 30px;
+    margin-right: 35px;
 }
 .header ul {
     display: flex;
@@ -20,7 +21,7 @@ header img {
 .header a {
     color: var(--text);
     letter-spacing: 1.4px;
-    margin-right: 10px;
+    margin-right: 20px;
     padding-bottom: 4px;
 }
 .header a:hover, .activeLink {
@@ -28,6 +29,15 @@ header img {
 }
 
 
+
+@media (min-width: 768px) and (max-width: 991px) {
+    header img {
+        margin-right: 30px;
+    }
+    .header a {
+        margin-right: 10px;
+    }
+}
 @media (max-width: 767px) {
     .header img {
         display: none;

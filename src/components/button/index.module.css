@@ -5,7 +5,7 @@
     letter-spacing: 1.6px;
     color: var(--text);
     border-radius: 80px;
-    width: 200px;
+    width: 170px;
     background-color: var(--mainBtn);
     height: 46px;
     display: flex;
@@ -17,3 +17,4 @@
     border: none !important;
     transform: scale(0.9);
 }
+
