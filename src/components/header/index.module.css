@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+}
+header img {
+    width: 154px;
+    height: 30px;
+}
+.header ul {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.header a {
+    color: var(--text);
+    letter-spacing: 1.4px;
+    margin-right: 10px;
+    padding-bottom: 4px;
+}
+.header a:hover, .activeLink {
+    border-bottom: 2px solid var(--text);
+}
+
+
+@media (max-width: 767px) {
+    .header img {
+        display: none;
+    }
+}

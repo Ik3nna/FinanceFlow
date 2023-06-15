@@ -1,16 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
-/* --fonts: 'DM Sans', sans-serif; */
 
 *, ::before, ::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --bgColor: #010725;
+  --text: #FFFFFF;
+  --mainBtn: #0328EE;
+  --cardColor: #010D50;
+  --containerColor: #0328EE;
+  --font: 'DM Sans', sans-serif;
+}
 body, html {
   position: relative;
   overflow-x: hidden;
+  background-color: var(--bgColor);
+  font: var(--font);
+  font-size: 12px;
+  line-height: 16px;
 }
-
 ul {
   list-style: none;
 }
