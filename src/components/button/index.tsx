@@ -12,7 +12,7 @@ interface ButtonProps {
 const Button: React.FC<ButtonProps> = ({ children, linkTo, bg, color }) => {
   return (
     <Link 
-      to={`/${linkTo}`} 
+      to={`${linkTo}`} 
       className={styles.btn}
       style={{
         backgroundColor: `${bg}`,

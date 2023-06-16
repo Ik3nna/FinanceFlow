@@ -19,7 +19,7 @@ body, html {
   overflow-y: auto;
   background-color: var(--bgColor);
   font: var(--font);
-  font-size: 12px;
+  font-size: 14px;
   line-height: 16px;
 }
 ul {
