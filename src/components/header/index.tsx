@@ -10,9 +10,10 @@ const Header: React.FC = ()=> {
     const navItem = [
         { id: 1, item: "home", linkTo: "/home"},
         { id: 2, item: "about", linkTo: "/about"},
-        { id: 3, item: "tokens", linkTo: "/tokens"},
-        { id: 4, item: "blog", linkTo: "/blog"},
-        { id: 5, item: "contact us", linkTo: "/contact"}
+        { id: 3, item: "pricing", linkTo: "/pricing"},
+        { id: 4, item: "tokens", linkTo: "/tokens"},
+        { id: 5, item: "blog", linkTo: "/blog"},
+        { id: 6, item: "contact us", linkTo: "/contact"}
     ]
 
     const navLinkClass = ({ isActive }: { isActive: boolean }): string => {
