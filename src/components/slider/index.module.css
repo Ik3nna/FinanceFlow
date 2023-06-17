@@ -5,9 +5,11 @@
     width: 90%;
     place-items: center;
     margin-top: 70px;
+    margin-bottom: 0 !important;
 }
 .slideTrack {
     display: flex;
+    height: 50%;
     width: calc(586px * 8);
     animation: scroll 40s linear infinite;
 }
