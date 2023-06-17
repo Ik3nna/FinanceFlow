@@ -14,6 +14,12 @@ import sndr from "../../assets/sndr.svg";
 import sw from "../../assets/sw.svg";
 import tc from "../../assets/tc.svg";
 import group from "../../assets/group-phones.svg";
+import bse from "../../assets/256.svg";
+import fst from "../../assets/fst.svg";
+import lfim from "../../assets/lfim.svg";
+import ds from "../../assets/ds.svg";
+import pd from "../../assets/pd.svg";
+import ug from "../../assets/ug.svg"
 
 const Home: React.FC = ()=> {
   return (
@@ -141,7 +147,7 @@ const Home: React.FC = ()=> {
         <Hstack>
             <img src={group} alt="group-phones" />
 
-            <Vstack>
+            <article>
                 <h2 className={styles.header2}>
                     Earn daily rewards on your idle tokens
                 </h2>
@@ -150,8 +156,97 @@ const Home: React.FC = ()=> {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Feugiat nulla suspendisse tortor aene.
                 </p>
-            </Vstack>
+
+                <article className={styles.shiftContainer}> 
+                    <div className={styles.shift}>
+                        <img src={lfim} alt="lfim" />
+
+                        <p className={styles.text}>
+                            Lowest fees in market
+                        </p>
+                    </div>
+
+                    <div className={styles.shift}>
+                        <img src={fst} alt="fst" />
+
+                        <p className={styles.text}>
+                            Fast and secure transactions
+                        </p>
+                    </div>
+
+                    <div className={styles.shift}>
+                        <img src={bse} alt="bse" />
+
+                        <p className={styles.text}>
+                            256-bit secure encryption
+                        </p>
+                    </div>
+                </article>
+            </article>
         </Hstack>
+
+        <section className={styles.container}>
+            <article>
+                <h2 className={styles.header2}>
+                    Earn daily rewards on your idle tokens
+                </h2>
+
+                <div className={styles.shiftContainer}> 
+                    <div className={styles.shift}>
+                        <img src={pd} alt="pd" />
+
+                        <p className={styles.text}>
+                            100% Private data
+                        </p>
+                    </div>
+
+                    <div className={styles.shift}>
+                        <img src={ug} alt="ug" />
+
+                        <p className={styles.text}>
+                            99.99% Uptime guarantee
+                        </p>
+                    </div>
+
+                    <div className={styles.shift}>
+                        <img src={ds} alt="ds" />
+
+                        <p className={styles.text}>
+                            24/7 Dedicated support
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <img src={desktopLaptop} className={styles.laptop} alt="laptop" />
+
+            <p className={styles.floatText}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Feugiat nulla suspendisse tortor aene.
+            </p>
+        </section>
+
+        <section className={styles.blueBg}>
+            <Hstack>
+                <Vstack>
+                    <h2 className={styles.header2}>
+                        Explore endless possibilities with FinanceFlow
+                    </h2>
+
+                    <div className={styles.text}>
+                        Lorem idivsum dolor sit amet, consectetur adipiscing elit. 
+                        Feugiat nulla suspendisse tortor aene.
+                    </div>
+
+                    <Button linkTo="#" color="#0328EE" bg='#FFFFFF'>
+                        download app
+                    </Button>
+                </Vstack>
+
+                <img src={group} alt="group-phones" />
+            </Hstack>
+        </section>
+
     </main>
   )
 }

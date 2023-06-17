@@ -27,6 +27,9 @@ header img {
 .header a:hover, .activeLink {
     border-bottom: 2px solid var(--text);
 }
+.header nav {
+    margin-right: auto
+}
 
 
 
