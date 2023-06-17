@@ -4,6 +4,7 @@ import Hstack from '../../layouts/hstack';
 import Vstack from '../../layouts/vstack';
 import Cards from '../../components/cards';
 import Button from '../../components/button';
+import Slider from '../../components/slider';
 
 // Assets
 import desktopLaptop from "../../assets/Apple Computers.svg";
@@ -247,6 +248,19 @@ const Home: React.FC = ()=> {
             </Hstack>
         </section>
 
+        <section>
+            <Hstack>
+                <h2>
+                    What our users say?
+                </h2>
+
+                <Button linkTo="#" bg="#0328EE" color='#FFFFFF'>
+                    download app
+                </Button>
+            </Hstack>
+
+            <Slider />
+        </section>
     </main>
   )
 }

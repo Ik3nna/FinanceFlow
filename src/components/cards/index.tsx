@@ -13,9 +13,9 @@ const Cards: React.FC<CardsProps> = ({ children, w, h, bg }) => {
    <section
     className={styles.cards}
     style={{
-        width: `${w}`,
-        height: `${h}`,
-        backgroundColor: `${bg}`
+      width: `${w}`,
+      height: `${h}`,
+      backgroundColor: `${bg}`
     }}
    >
     {children}

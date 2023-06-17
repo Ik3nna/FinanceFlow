@@ -4,9 +4,9 @@ import { StackProps } from '../stack';
 
 const Vstack: React.FC<StackProps> = ({ children }) => {
   return (
-    <section className={styles.container}>
-        {children}
-    </section>
+    <div className={styles.container}>
+      {children}
+    </div>
   )
 }
 
