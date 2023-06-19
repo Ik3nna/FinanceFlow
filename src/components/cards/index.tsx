@@ -10,7 +10,7 @@ interface CardsProps {
 
 const Cards: React.FC<CardsProps> = ({ children, w, h, bg }) => {
   return (
-   <section
+   <article
     className={styles.cards}
     style={{
       width: `${w}`,
@@ -19,7 +19,7 @@ const Cards: React.FC<CardsProps> = ({ children, w, h, bg }) => {
     }}
    >
     {children}
-   </section>
+   </article>
   )
 }
 

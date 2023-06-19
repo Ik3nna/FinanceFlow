@@ -81,10 +81,10 @@
     color: var(--text);
     margin-bottom: 20px;
 }
-.main section:nth-of-type(3) section {
+.main section:nth-of-type(3) article article {
     margin-bottom: 30px;
 }
-.main section:nth-of-type(3) article {
+.main section:nth-of-type(3) > article {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -106,7 +106,7 @@
 }
 .iphone {
     position: relative;
-    bottom: -37px;
+    bottom: -36px;
     left: 50%;
     transform: translateX(-50%);
 }

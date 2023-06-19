@@ -8,7 +8,7 @@ import sliderImg from "../../assets/sliderImg.svg";
 
 const Slider: React.FC = () => {
   return (
-    <section className={styles.slider}>
+    <main className={styles.slider}>
         <article className={styles.slideTrack}>
             <div className={styles.slide}>
                 <Cards w="586px" h="343px" bg="#010D50">
@@ -225,7 +225,7 @@ const Slider: React.FC = () => {
                 </Cards>
             </div>
         </article>
-    </section>
+    </main>
   )
 }
 

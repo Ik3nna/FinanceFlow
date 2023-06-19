@@ -1,11 +1,9 @@
 .slider {
-    margin: auto;
+    margin: 70px auto auto auto;
     display: grid;
     position: relative;
     width: 90%;
     place-items: center;
-    margin-top: 70px;
-    margin-bottom: 0 !important;
 }
 .slideTrack {
     display: flex;
@@ -34,22 +32,22 @@
     margin-right: 30px;
     perspective: 100px;
 }
-.slide section {
+.slide article {
     width: 100%;
     transition: transform 1s;
 }
-.slide section:hover {
+.slide article:hover {
     transform: translateZ(5px);
 }
 
-.slide section > div div {
+.slide article > div div {
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
     color: var(--text);
     width: 468px;
 }
-.slide section > div div:nth-of-type(2) {
+.slide article > div div:nth-of-type(2) {
     display: flex;
     align-items: center;
     text-transform: uppercase;

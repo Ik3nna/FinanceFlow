@@ -20,7 +20,8 @@ import fst from "../../assets/fst.svg";
 import lfim from "../../assets/lfim.svg";
 import ds from "../../assets/ds.svg";
 import pd from "../../assets/pd.svg";
-import ug from "../../assets/ug.svg"
+import ug from "../../assets/ug.svg";
+import banner from "../../assets/banner.svg";
 
 const Home: React.FC = ()=> {
   return (
@@ -260,6 +261,19 @@ const Home: React.FC = ()=> {
             </Hstack>
 
             <Slider />
+        </section>
+
+        <section>
+            <Hstack>
+                <h2>
+                    Browse our latest news
+                </h2>
+
+                <p className={styles.text}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sit non neque orci amet, amet .
+                </p>
+            </Hstack>
         </section>
     </main>
   )
