@@ -290,7 +290,7 @@ const Home: React.FC = ()=> {
 
                     <div className={styles.products}>products</div>
 
-                    <Cards w="382px" h="392px" bg="#010D50">
+                    <Cards w="378px" h="392px" bg="#010D50">
                         <h5>
                             The Basics about Cryptocurrency
                         </h5>
@@ -311,7 +311,7 @@ const Home: React.FC = ()=> {
                                 </h6>
 
                                 <div>
-                                    {currMonth}{" "}{currDay}{" ,"}{currYear}
+                                    {currMonth}{" "}{currDay}{", "}{currYear}
                                 </div>
                             </div>
                         </div>
@@ -323,7 +323,7 @@ const Home: React.FC = ()=> {
 
                     <div className={styles.products}>products</div>
 
-                    <Cards w="382px" h="392px" bg="#010D50">
+                    <Cards w="378px" h="392px" bg="#010D50">
                         <h5>
                             The Basics about Cryptocurrency
                         </h5>
@@ -344,7 +344,7 @@ const Home: React.FC = ()=> {
                                 </h6>
 
                                 <div>
-                                    {currMonth}{" "}{currDay}{" ,"}{currYear}
+                                    {currMonth}{" "}{currDay}{", "}{currYear}
                                 </div>
                             </div>
                         </div>
@@ -356,7 +356,7 @@ const Home: React.FC = ()=> {
 
                     <div className={styles.products}>products</div>
 
-                    <Cards w="382px" h="392px" bg="#010D50">
+                    <Cards w="378px" h="392px" bg="#010D50">
                         <h5>
                             The Basics about Cryptocurrency
                         </h5>
@@ -377,7 +377,7 @@ const Home: React.FC = ()=> {
                                 </h6>
 
                                 <div>
-                                    {currMonth}{" "}{currDay}{" ,"}{currYear}
+                                    {currMonth}{" "}{currDay}{", "}{currYear}
                                 </div>
                             </div>
                         </div>
@@ -391,6 +391,17 @@ const Home: React.FC = ()=> {
         </section>
 
         <section>
+            <Hstack>
+                <h2>
+                    Download our app
+                </h2>
+
+                <p className={styles.text}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sit non neque orci amet, amet .
+                </p>
+            </Hstack>
+
             
         </section>
     </main>
