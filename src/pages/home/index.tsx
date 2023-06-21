@@ -22,8 +22,17 @@ import ds from "../../assets/ds.svg";
 import pd from "../../assets/pd.svg";
 import ug from "../../assets/ug.svg";
 import banner from "../../assets/banner.svg";
+import alex from "../../assets/alex.svg";
 
 const Home: React.FC = ()=> {
+    const currMonth = new Date().toLocaleString([], {
+        month: 'long',
+    });
+
+    const currDay = new Date().getDate();
+
+    const currYear = new Date().getFullYear();
+
   return (
     <main className={styles.main}>
         <section className={styles.container}>
@@ -274,6 +283,115 @@ const Home: React.FC = ()=> {
                     Sit non neque orci amet, amet .
                 </p>
             </Hstack>
+
+            <article className={styles.banner}>
+                <div>
+                    <img src={banner} alt="banner" />
+
+                    <div className={styles.products}>products</div>
+
+                    <Cards w="382px" h="392px" bg="#010D50">
+                        <h5>
+                            The Basics about Cryptocurrency
+                        </h5>
+
+                        <p className={styles.text}>
+                            Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. 
+                            Scelerisque viverra donec diammeo.
+                        </p>
+
+                        <hr />
+
+                        <div className={styles.bannerCont}>
+                            <img src={alex} alt="alex" />
+
+                            <div>
+                                <h6>
+                                    john carter
+                                </h6>
+
+                                <div>
+                                    {currMonth}{" "}{currDay}{" ,"}{currYear}
+                                </div>
+                            </div>
+                        </div>
+                    </Cards>
+                </div>
+
+                <div>
+                    <img src={banner} alt="banner" />
+
+                    <div className={styles.products}>products</div>
+
+                    <Cards w="382px" h="392px" bg="#010D50">
+                        <h5>
+                            The Basics about Cryptocurrency
+                        </h5>
+
+                        <p className={styles.text}>
+                            Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. 
+                            Scelerisque viverra donec diammeo.
+                        </p>
+
+                        <hr />
+
+                        <div className={styles.bannerCont}>
+                            <img src={alex} alt="alex" />
+
+                            <div>
+                                <h6>
+                                    john carter
+                                </h6>
+
+                                <div>
+                                    {currMonth}{" "}{currDay}{" ,"}{currYear}
+                                </div>
+                            </div>
+                        </div>
+                    </Cards>
+                </div>
+
+                <div>
+                    <img src={banner} alt="banner" />
+
+                    <div className={styles.products}>products</div>
+
+                    <Cards w="382px" h="392px" bg="#010D50">
+                        <h5>
+                            The Basics about Cryptocurrency
+                        </h5>
+
+                        <p className={styles.text}>
+                            Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. 
+                            Scelerisque viverra donec diammeo.
+                        </p>
+
+                        <hr />
+
+                        <div className={styles.bannerCont}>
+                            <img src={alex} alt="alex" />
+
+                            <div>
+                                <h6>
+                                    john carter
+                                </h6>
+
+                                <div>
+                                    {currMonth}{" "}{currDay}{" ,"}{currYear}
+                                </div>
+                            </div>
+                        </div>
+                    </Cards>
+                </div>
+            </article>
+
+            <Button linkTo="/blog" bg="rgba(255, 255, 255, 0.10)" color='#FFFFFF'>
+                view all articles
+            </Button>
+        </section>
+
+        <section>
+            
         </section>
     </main>
   )

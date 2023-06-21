@@ -93,13 +93,13 @@
     width: 90%;
     color: var(--text);
 }
-.main section:nth-of-type(3) article h6 {
+.main section:nth-of-type(3) article h6, .bannerCont h6 {
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
     text-transform: uppercase;
 }
-.main section:nth-of-type(3) article p {
+.main section:nth-of-type(3) article p, .bannerCont p {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -136,6 +136,7 @@
 }
 
 
+/* Blue background */
 .blueBg {
     background-color: var(--mainBtn);
     display: flex;
@@ -150,5 +151,80 @@
 }
 
 
-
-
+/* Banners */
+.banner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 20px;
+    max-width: 100%;
+    width: 90%;
+    margin: 20px auto 0px;
+    padding-top: 250px;
+}
+.banner > div {
+    position: relative;
+    color: var(--text);
+}
+.banner .products {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    background-color: var(--mainBtn);
+    color: var(--text);
+    z-index: 2;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.004px;
+    letter-spacing: 0.7px;
+    padding: 9px 14.158px 9px 14.358px;
+    border-radius: 1000px;
+}
+.banner article {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.banner > div > img {
+    position: absolute;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    bottom: 392px;
+    clear: both;
+}
+.banner h5 {
+    font-size: 22px;
+    line-height: 31px;
+    font-weight: 700;
+    width: 300px;
+}
+.banner p {
+    width: 300px;
+}
+.banner hr {
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+}
+.bannerCont {
+    display: flex;
+    align-items: center;
+}
+.bannerCont img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.bannerCont > div div {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+.main section:nth-of-type(7) a  {
+   text-align: center;
+   margin: 20px auto 0;
+   width: 210px;
+}
