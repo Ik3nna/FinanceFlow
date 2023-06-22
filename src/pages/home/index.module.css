@@ -48,6 +48,7 @@
 }
 
 
+/* 2nd section */
 .main section:nth-of-type(2) article {
     display: flex;
     flex-direction: column;
@@ -69,12 +70,13 @@
 }
 
 
+/* 3rd section */
 .main section:nth-of-type(3) {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.main h2 {
+.main h2, .download h2 {
     font-weight: 700;
     font-size: 42px;
     line-height: 55px;
@@ -230,4 +232,35 @@
 }
 
 
+
 /* Download  */
+.download {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 30px;
+    max-width: 100%;
+    width: 90%;
+    margin: 40px auto 0px;
+    color: var(--text);
+}
+.download p {
+    font-size: 18px;
+    line-height: 32.004px;
+    width: 443px;
+}
+.download a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1.6px;
+}
+.download a span {
+    margin-right: 5px;
+}
+.download article > img {
+    position: relative;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -13%);
+}

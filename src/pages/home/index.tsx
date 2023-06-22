@@ -23,6 +23,10 @@ import pd from "../../assets/pd.svg";
 import ug from "../../assets/ug.svg";
 import banner from "../../assets/banner.svg";
 import alex from "../../assets/alex.svg";
+import appStore from "../../assets/app-store.svg"
+import iPhones from "../../assets/iPhones.svg";
+import playStore from "../../assets/play-store.svg";
+import samsung from "../../assets/Samsung Galaxys.svg"
 
 const Home: React.FC = ()=> {
     const currMonth = new Date().toLocaleString([], {
@@ -402,8 +406,50 @@ const Home: React.FC = ()=> {
                 </p>
             </Hstack>
 
-            
+            <div className={styles.download}>
+                <Cards w="563px" h="775px" bg="#010D50">
+                    <h2>
+                        Download for iOS
+                    </h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Mauris sed nulla integer in pellentesque tortor semper elementum. Felis.
+                    </p>
+
+                    <Button linkTo="#" bg="#0328EE" color='#FFFFFF'>
+                        <span>
+                            <img src={appStore} alt="app-store" />
+                        </span> 
+                        app store
+                    </Button>
+
+                    <img src={iPhones} alt="iphones" />
+                </Cards>
+
+                <Cards w="563px" h="775px" bg="#010D50">
+                    <h2>
+                        Download for Android
+                    </h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Mauris sed nulla integer in pellentesque tortor semper elementum. Felis.
+                    </p>
+
+                    <Button linkTo="#" bg="#0328EE" color='#FFFFFF'>
+                        <span>
+                            <img src={playStore} alt="play-store" />
+                        </span> 
+                        play store
+                    </Button>
+
+                    <img src={samsung} alt="samsung" />
+                </Cards>
+            </div>
         </section>
+
+        
     </main>
   )
 }
