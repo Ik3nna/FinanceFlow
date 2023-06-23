@@ -24,7 +24,7 @@ header img {
     margin-right: 20px;
     padding-bottom: 4px;
 }
-.header a:hover, .activeLink {
+.header nav a:hover, .activeLink {
     border-bottom: 2px solid var(--text);
 }
 .header nav {

@@ -55,21 +55,20 @@
     margin-bottom: 10px;
 }
 .footer nav a {
-    color: var(--text);
+    color: rgba(255, 255, 255, 0.30);
     font-size: 14px;
     line-height: 16.002px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    opacity: 0.3;
 }
 .footer .activeLink {
     font-weight: 700;
-    opacity: 1;
+    color: var(--text);
 }
 
 /* card */
 .footer > div:nth-of-type(2) {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 .footer > div:nth-of-type(2) article h5 {
     padding: 0 !important;
@@ -80,7 +79,7 @@
     width: 300px;
     font-size: 18px;
     line-height: 32.004px;
-    opacity: 0.5;
+    color: rgba(255, 255, 255, 0.30);
     margin-top: 10px;
 }
 .btnContainer {
@@ -99,9 +98,15 @@
 }
 
 
-/* copywright */
+/* Final section */
 .footer > hr {
     width: 85%;
     border: 1px solid rgba(255, 255, 255, 0.30);
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+.copywright {
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.30);
+    margin-bottom: 10px;
 }

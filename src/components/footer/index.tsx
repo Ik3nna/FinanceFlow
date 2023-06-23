@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
   return (
     <footer className={styles.footer}>
       <Hstack>
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" onClick={()=> window.location.reload()} />
 
         <div className={styles.icons}>
           <div>
@@ -112,6 +112,10 @@ const Footer: React.FC = () => {
       </Hstack>
 
       <hr />
+
+      <p className={styles.copywright}>
+        All rights reserved &copy; {new Date().getFullYear()}{" "}Nduks
+      </p>
     </footer>
   )
 }

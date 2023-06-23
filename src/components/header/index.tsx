@@ -22,7 +22,7 @@ const Header: React.FC = ()=> {
 
     return(
         <header className={styles.header}>
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" onClick={()=> window.location.reload()} />
 
             <nav>
                 <ul>
