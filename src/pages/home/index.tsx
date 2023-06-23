@@ -5,6 +5,7 @@ import Vstack from '../../layouts/vstack';
 import Cards from '../../components/cards';
 import Button from '../../components/button';
 import Slider from '../../components/slider';
+import Footer from '../../components/footer';
 
 // Assets
 import desktopLaptop from "../../assets/Apple Computers.svg";
@@ -449,7 +450,7 @@ const Home: React.FC = ()=> {
             </div>
         </section>
 
-        
+        <Footer />
     </main>
   )
 }
