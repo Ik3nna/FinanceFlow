@@ -28,7 +28,8 @@ header img {
     border-bottom: 2px solid var(--text);
 }
 .header nav {
-    margin-right: auto
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -37,12 +38,18 @@ header img {
     header img {
         margin-right: 30px;
     }
-    .header a {
-        margin-right: 10px;
+    .header nav {
+        margin-right: 0;
+    }
+    .header > a {
+        display: none;
     }
 }
 @media (max-width: 767px) {
-    .header img {
+    .header nav {
+        display: none;
+    }
+    .header > a {
         display: none;
     }
 }

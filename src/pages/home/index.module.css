@@ -20,7 +20,6 @@
     font-weight: 700;
     font-size: 66px;
     line-height: 80px;
-    line-height: -1px;
     color: var(--text);
     width: 700px;
     margin-bottom: 15px;
@@ -122,6 +121,7 @@
 }
 
 
+/* Another section */
 .header2 {
     width: 475px;
 }
@@ -201,6 +201,7 @@
 }
 .banner > div > img {
     position: absolute;
+    width: 378px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     bottom: 392px;
@@ -244,7 +245,6 @@
 }
 
 
-
 /* Download  */
 .download {
     display: flex;
@@ -279,4 +279,251 @@
     top: 13%;
     left: 50%;
     transform: translate(-50%, -13%);
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container h1 {
+        font-size: 46px;
+        line-height: 60px;
+        width: 450px;
+    }
+    .text, .floatText {
+        width: 450px;
+    }
+    .laptop {
+        width: 450px;
+        float: right;
+    }
+
+
+    /* 3rd section */
+    .main h2, .download h2 {
+        font-size: 38px;
+        line-height: 45px;
+        margin-bottom: 10px;
+    }
+    .main section:nth-of-type(3) > article {
+        column-gap: 20px;
+    }
+    .sndr {
+        width: 270px;
+        height: 270px;
+    }
+    .iosCard {
+        width: 377px;
+        height: 576px;
+    }
+    .main section:nth-of-type(3) article h6, .bannerCont h6 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .main section:nth-of-type(3) article p, .bannerCont p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .iphone {
+        width: 250px;
+        height: 400px;
+        bottom: -36px;
+    }
+
+
+    /* Another section */
+    .grp {
+        width: 50%;
+    }
+    .header2 {
+        width: 400px;
+    }
+
+
+    /* Blue background */
+    .blueBg h2 {
+        width: 450px;
+        font-size: 37px;
+    }
+    .blueBg .text {
+        width: 400px;
+    }
+    .blueBg a {
+        margin-top: 20px;
+    }
+
+
+    /* Banners */
+    .basics {
+        width: 300px;
+        height: 392px;
+    }
+    .banner article {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    .banner p {
+        width: 250px;
+    }
+    .banner > div > img {
+        width: 300px;
+    }
+    .bannerCont img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    .bannerCont > div div {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+
+    /* Download  */
+    .downloadCards {
+        width: 450px;
+        height: 670px;
+    }
+    .download p {
+        font-size: 16px;
+        line-height: 24px;
+        width: 400px;
+    }
+    .download article > img {
+        position: relative;
+        width: 380px;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -15%);
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .container h1 {
+        font-size: 30px;
+        line-height: 46px;
+        width: 350px;
+    }
+    .text, .floatText {
+        font-size: 14px;
+        line-height: 24px;
+        width: 350px;
+    }
+    .laptop {
+        width: 450px;
+        float: right;
+    }
+
+
+    /* 3rd section */
+    .main h2, .download h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .main section:nth-of-type(3) > article {
+        column-gap: 10px;
+    }
+    .sndr {
+        width: 220px;
+        height: 220px;
+    }
+    .sndr > img {
+        width: 50px;
+    }
+    .iosCard {
+        width: 377px;
+        height: 470px;
+    }
+    .main section:nth-of-type(3) article h6, .bannerCont h6 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .main section:nth-of-type(3) article p, .bannerCont p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .iphone {
+        width: 170px;
+        height: 400px;
+        bottom: -20px;
+    }
+
+
+    /* Another section */
+    .grp {
+        width: 50%;
+    }
+    .header2 {
+        width: 300px;
+    }
+
+
+    /* Blue background */
+    .blueBg h2 {
+        width: 300px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .blueBg .text {
+        width: 300px;
+    }
+    .blueBg a {
+        margin-top: 20px;
+    }
+
+
+    /* Banners */
+    .banner {
+        margin-top: -50px;
+    }
+    .basics {
+        width: 235px;
+        height: 392px;
+    }
+    .banner p {
+        width: 200px;
+    }
+    .banner .products {
+        font-size: 12px;
+        line-height: 16.004px;
+    }
+    .basics, .banner > div > img {
+        width: 235px;
+    }
+    .bannerCont img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    .bannerCont > div div {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+
+    /* Download  */
+    .downloadCards {
+        width: 350px;
+        height: 670px;
+    }
+    .download p {
+        font-size: 14px;
+        line-height: 24px;
+        width: 300px;
+    }
+    .download a {
+        font-size: 12px;
+    }
+    .download a img {
+        width: 20px;
+    }
+    .download article > img {
+        position: relative;
+        width: 280px;
+        top: 16%;
+        left: 50%;
+        transform: translate(-50%, -16%);
+    }
+}
+@media (max-width: 767px) {
+    
 }

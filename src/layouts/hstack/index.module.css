@@ -8,3 +8,9 @@
     padding-top: 20px;
     position: relative;
 }
+
+@media (max-width: 1199px) {
+    .container{
+        column-gap: 30px;
+    }
+}

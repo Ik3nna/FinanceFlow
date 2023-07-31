@@ -64,7 +64,7 @@ const Home: React.FC = ()=> {
             <img src={desktopLaptop} className={styles.laptop} alt="laptop" />
         </section>
 
-        <section>
+        <section className={styles.con}>
             <article>
                 <p className={styles.subText}>
                     Finance flow has been featured on
@@ -161,7 +161,7 @@ const Home: React.FC = ()=> {
         </section>
 
         <Hstack>
-            <img src={group} alt="group-phones" />
+            <img src={group} alt="group-phones" className={styles.grp} />
 
             <article>
                 <h2 className={styles.header2}>
@@ -259,7 +259,7 @@ const Home: React.FC = ()=> {
                     </Button>
                 </Vstack>
 
-                <img src={group} alt="group-phones" />
+                <img src={group} alt="group-phones" className={styles.grp} />
             </Hstack>
         </section>
 

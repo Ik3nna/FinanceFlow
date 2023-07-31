@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
           </nav>
         </Vstack>
 
-        <Cards w="420px" h="196px" bg="rgba(255, 255, 255, 0.10)">
+        <Cards bg="rgba(255, 255, 255, 0.10)" className="footerCard">
           <h5>
             Download our Application
           </h5>
