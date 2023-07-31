@@ -11,7 +11,7 @@ const Slider: React.FC = () => {
     <main className={styles.slider}>
         <article className={styles.slideTrack}>
             <div className={styles.slide}>
-                <Cards w="586px" h="343px" bg="#010D50">
+                <Cards bg="#010D50" className="slideCard">
                     <Vstack>
                         <div>
                             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -38,7 +38,7 @@ const Slider: React.FC = () => {
 
             
             <div className={styles.slide}>
-                <Cards w="586px" h="343px" bg="#010D50">
+                <Cards bg="#010D50" className="slideCard">
                     <Vstack>
                         <div>
                             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -65,7 +65,7 @@ const Slider: React.FC = () => {
 
 
             <div className={styles.slide}>
-                <Cards w="586px" h="343px" bg="#010D50">
+                <Cards bg="#010D50" className="slideCard">
                     <Vstack>
                         <div>
                             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -92,7 +92,7 @@ const Slider: React.FC = () => {
 
 
             <div className={styles.slide}>
-                <Cards w="586px" h="343px" bg="#010D50">
+                <Cards bg="#010D50" className="slideCard">
                     <Vstack>
                         <div>
                             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -119,7 +119,7 @@ const Slider: React.FC = () => {
 
 
             <div className={styles.slide}>
-                <Cards w="586px" h="343px" bg="#010D50">
+                <Cards bg="#010D50" className="slideCard">
                     <Vstack>
                         <div>
                             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -146,7 +146,7 @@ const Slider: React.FC = () => {
 
             
             <div className={styles.slide}>
-                <Cards w="586px" h="343px" bg="#010D50">
+                <Cards bg="#010D50" className="slideCard">
                     <Vstack>
                         <div>
                             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -173,7 +173,7 @@ const Slider: React.FC = () => {
 
 
             <div className={styles.slide}>
-                <Cards w="586px" h="343px" bg="#010D50">
+                <Cards bg="#010D50" className="slideCard">
                     <Vstack>
                         <div>
                             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -200,7 +200,7 @@ const Slider: React.FC = () => {
 
 
             <div className={styles.slide}>
-                <Cards w="586px" h="343px" bg="#010D50">
+                <Cards bg="#010D50" className="slideCard">
                     <Vstack>
                         <div>
                             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

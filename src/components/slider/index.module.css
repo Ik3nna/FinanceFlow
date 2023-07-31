@@ -39,7 +39,10 @@
 .slide article:hover {
     transform: translateZ(5px);
 }
-
+.slideCard {
+    width: 586px;
+    height: 343px;
+}
 .slide article > div div {
     font-weight: 400;
     font-size: 18px;

@@ -86,7 +86,7 @@ const Home: React.FC = ()=> {
 
             <article>
                 <Vstack>
-                    <Cards w="325px" h="295px" bg="#010D50">
+                    <Cards bg="#010D50" className="sndr">
                         <img src={sndr} alt="sndr" />
 
                         <h6>
@@ -99,7 +99,7 @@ const Home: React.FC = ()=> {
                         </p>
                     </Cards>
 
-                    <Cards w="325px" h="295px" bg="#010D50">
+                    <Cards bg="#010D50" className="sndr">
                         <img src={sw} alt="sndr" />
 
                         <h6>
@@ -113,7 +113,7 @@ const Home: React.FC = ()=> {
                     </Cards>
                 </Vstack>
 
-                <Cards w="477px" h="622px" bg="#0328EE">
+                <Cards bg="#0328EE" className="iosCard">
                     <h6>
                         iOS & Android App
                     </h6>
@@ -127,7 +127,7 @@ const Home: React.FC = ()=> {
                 </Cards>
 
                 <Vstack>
-                    <Cards w="325px" h="295px" bg="#010D50">
+                    <Cards bg="#010D50" className="sndr">
                         <img src={tc} alt="sndr" />
 
                         <h6>
@@ -140,7 +140,7 @@ const Home: React.FC = ()=> {
                         </p>
                     </Cards>
 
-                    <Cards w="325px" h="295px" bg="#010D50">
+                    <Cards bg="#010D50" className="sndr">
                         <img src={rtt} alt="sndr" />
 
                         <h6>
@@ -295,7 +295,7 @@ const Home: React.FC = ()=> {
 
                     <div className={styles.products}>products</div>
 
-                    <Cards w="378px" h="392px" bg="#010D50">
+                    <Cards bg="#010D50" className='basics'>
                         <h5>
                             The Basics about Cryptocurrency
                         </h5>
@@ -328,7 +328,7 @@ const Home: React.FC = ()=> {
 
                     <div className={styles.products}>products</div>
 
-                    <Cards w="378px" h="392px" bg="#010D50">
+                    <Cards bg="#010D50" className='basics'>
                         <h5>
                             The Basics about Cryptocurrency
                         </h5>
@@ -361,7 +361,7 @@ const Home: React.FC = ()=> {
 
                     <div className={styles.products}>products</div>
 
-                    <Cards w="378px" h="392px" bg="#010D50">
+                    <Cards bg="#010D50" className='basics'>
                         <h5>
                             The Basics about Cryptocurrency
                         </h5>
@@ -408,7 +408,7 @@ const Home: React.FC = ()=> {
             </Hstack>
 
             <div className={styles.download}>
-                <Cards w="563px" h="775px" bg="#010D50">
+                <Cards bg="#010D50"  className="downloadCards">
                     <h2>
                         Download for iOS
                     </h2>
@@ -428,7 +428,7 @@ const Home: React.FC = ()=> {
                     <img src={iPhones} alt="iphones" />
                 </Cards>
 
-                <Cards w="563px" h="775px" bg="#010D50">
+                <Cards bg="#010D50" className="downloadCards">
                     <h2>
                         Download for Android
                     </h2>

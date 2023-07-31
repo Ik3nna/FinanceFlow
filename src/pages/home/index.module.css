@@ -95,6 +95,14 @@
     width: 90%;
     color: var(--text);
 }
+.sndr {
+    width: 325px;
+    height: 295px;
+}
+.iosCard {
+    width: 477px;
+    height: 622px;
+}
 .main section:nth-of-type(3) article h6, .bannerCont h6 {
     font-weight: 700;
     font-size: 18px;
@@ -183,6 +191,10 @@
     padding: 9px 14.158px 9px 14.358px;
     border-radius: 1000px;
 }
+.basics {
+    width: 378px;
+    height: 392px;
+}
 .banner article {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -243,6 +255,10 @@
     width: 90%;
     margin: 40px auto 0px;
     color: var(--text);
+}
+.downloadCards {
+    width: 563px;
+    height: 775px;
 }
 .download p {
     font-size: 18px;
