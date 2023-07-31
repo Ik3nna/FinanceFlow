@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./index.module.css";
 import Button from "../button";
 import { NavLink } from "react-router-dom";
@@ -20,15 +20,17 @@ const Header: React.FC = ()=> {
         return `${isActive ? styles.activeLink : ""}`;
     };
 
+    const [active, setActive] = useState(false);
+
     return(
-        <header className={styles.header}>
+        <header className={`${styles.header} ${active ? styles.active : ""}`}>
             <img src={logo} alt="logo" onClick={()=> window.location.reload()} />
 
             <nav>
                 <ul>
                     {navItem.map((navlink)=>
                         <li key={navlink.id}>
-                            <NavLink className={navLinkClass} to={navlink.linkTo}>
+                            <NavLink className={navLinkClass} onClick={()=>setActive(false)} to={navlink.linkTo}>
                                 {navlink.item}
                             </NavLink>
                         </li>
@@ -39,6 +41,12 @@ const Header: React.FC = ()=> {
             <Button linkTo="#" bg="#0328EE" color="#FFFFFF">
                 download app
             </Button>
+
+            <div className={styles.overlay}></div>
+                    
+            <div className={styles.hamburger} onClick={()=>setActive(!active)}>
+                <div className={styles.bar}></div>
+            </div>
         </header>
     );
 }

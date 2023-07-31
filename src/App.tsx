@@ -11,6 +11,7 @@ const App: React.FC = ()=> {
 
         <Routes>
           <Route path="/home" element={<Home />} />
+          {/* <Route path="/about" element={<Home />} /> */}
           <Route path="/" element={<Navigate replace to="/home" />} />
           <Route path="/*" element= {<Navigate replace to="/404" />} />
         </Routes>
