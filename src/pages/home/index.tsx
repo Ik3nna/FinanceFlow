@@ -9,7 +9,9 @@ import Footer from '../../components/footer';
 
 // Assets
 import desktopLaptop from "../../assets/Apple Computers.svg";
+import mobileLaptop from "../../assets/Computers-mobile.svg";
 import company from "../../assets/company.svg";
+import mobCompany from "../../assets/mobile-logos.svg";
 import ina from "../../assets/iPhones-ina.svg";
 import rtt from "../../assets/rtt.svg";
 import sndr from "../../assets/sndr.svg";
@@ -62,6 +64,8 @@ const Home: React.FC = ()=> {
             </article>
 
             <img src={desktopLaptop} className={styles.laptop} alt="laptop" />
+
+            <img src={mobileLaptop} className={styles.mLaptop} alt="laptop" />
         </section>
 
         <section className={styles.con}>
@@ -71,6 +75,8 @@ const Home: React.FC = ()=> {
                 </p>
 
                 <img src={company} alt="company" />
+
+                <img src={mobCompany} alt="company" />
             </article>
         </section>
 
@@ -235,6 +241,8 @@ const Home: React.FC = ()=> {
             </article>
 
             <img src={desktopLaptop} className={styles.laptop} alt="laptop" />
+
+            <img src={mobileLaptop} className={styles.mLaptop} alt="laptop" />
 
             <p className={styles.floatText}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

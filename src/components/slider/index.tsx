@@ -11,7 +11,7 @@ const Slider: React.FC = () => {
     <main className={styles.slider}>
         <article className={styles.slideTrack}>
             <div className={styles.slide}>
-                <Cards bg="#010D50" className="slideCard">
+                <Cards bg="#010D50">
                     <Vstack>
                         <div>
                             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
