@@ -1,5 +1,6 @@
 import React from 'react';
-import styles from "./index.module.css"
+import styles from "./index.module.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Hstack from '../../layouts/hstack';
 import Vstack from '../../layouts/vstack';
 import Cards from '../../components/cards';
@@ -92,72 +93,82 @@ const Home: React.FC = ()=> {
 
             <article>
                 <Vstack>
-                    <Cards bg="#010D50" className="sndr">
-                        <img src={sndr} alt="sndr" />
+                    <AnimationOnScroll delay={500} animateIn='animate__bounceInDown'>
+                        <Cards bg="#010D50" className="sndr">
+                            <img src={sndr} alt="sndr" />
 
-                        <h6>
-                            Send & Receive
-                        </h6>
+                            <h6>
+                                Send & Receive
+                            </h6>
 
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Feugiat nulla suspendisse tortor aene.
-                        </p>
-                    </Cards>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Feugiat nulla suspendisse tortor aene.
+                            </p>
+                        </Cards>
+                    </AnimationOnScroll>
+                    
+                    <AnimationOnScroll delay={500} animateIn='animate__bounceInUp'>
+                        <Cards bg="#010D50" className="sndr">
+                            <img src={sw} alt="sndr" />
 
-                    <Cards bg="#010D50" className="sndr">
-                        <img src={sw} alt="sndr" />
+                            <h6>
+                                100% secure wallet
+                            </h6>
 
-                        <h6>
-                            100% secure wallet
-                        </h6>
-
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Feugiat nulla suspendisse tortor aene.
-                        </p>
-                    </Cards>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Feugiat nulla suspendisse tortor aene.
+                            </p>
+                        </Cards>
+                    </AnimationOnScroll>
                 </Vstack>
 
-                <Cards bg="#0328EE" className="iosCard">
-                    <h6>
-                        iOS & Android App
-                    </h6>
+                <AnimationOnScroll delay={500} animateIn='animate__zoomInDown'>
+                    <Cards bg="#0328EE" className="iosCard">
+                        <h6>
+                            iOS & Android App
+                        </h6>
 
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        In amet, morbi non at sed neque.
-                    </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            In amet, morbi non at sed neque.
+                        </p>
 
-                    <img  className={styles.iphone} src={ina} alt="iphones" />
-                </Cards>
+                        <img  className={styles.iphone} src={ina} alt="iphones" />
+                    </Cards>
+                </AnimationOnScroll>
 
                 <Vstack>
-                    <Cards bg="#010D50" className="sndr">
-                        <img src={tc} alt="sndr" />
+                    <AnimationOnScroll delay={500} animateIn='animate__bounceInDown'>
+                        <Cards bg="#010D50" className="sndr">
+                            <img src={tc} alt="sndr" />
 
-                        <h6>
-                            trading chart
-                        </h6>
+                            <h6>
+                                trading chart
+                            </h6>
 
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Feugiat nulla suspendisse tortor aene.
-                        </p>
-                    </Cards>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Feugiat nulla suspendisse tortor aene.
+                            </p>
+                        </Cards>
+                    </AnimationOnScroll>
+                    
+                    <AnimationOnScroll delay={500} animateIn='animate__bounceInUp'>
+                        <Cards bg="#010D50" className="sndr">
+                            <img src={rtt} alt="sndr" />
 
-                    <Cards bg="#010D50" className="sndr">
-                        <img src={rtt} alt="sndr" />
+                            <h6>
+                                trading chart
+                            </h6>
 
-                        <h6>
-                            trading chart
-                        </h6>
-
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Feugiat nulla suspendisse tortor aene.
-                        </p>
-                    </Cards>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Feugiat nulla suspendisse tortor aene.
+                            </p>
+                        </Cards>
+                    </AnimationOnScroll>
                 </Vstack>
             </article>
 
@@ -167,44 +178,48 @@ const Home: React.FC = ()=> {
         </section>
 
         <Hstack>
-            <img src={group} alt="group-phones" className={styles.grp} />
+            <AnimationOnScroll delay={300} animateIn='animate__zoomInUp'>
+                <img src={group} alt="group-phones" className={styles.grp} />
+            </AnimationOnScroll>
 
-            <article>
-                <h2 className={styles.header2}>
-                    Earn daily rewards on your idle tokens
-                </h2>
+            <AnimationOnScroll delay={300} animateIn='animate__zoomInUp'>
+                <article>
+                    <h2 className={styles.header2}>
+                        Earn daily rewards on your idle tokens
+                    </h2>
 
-                <p className={styles.text}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Feugiat nulla suspendisse tortor aene.
-                </p>
+                    <p className={styles.text}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Feugiat nulla suspendisse tortor aene.
+                    </p>
 
-                <article className={styles.shiftContainer}> 
-                    <div className={styles.shift}>
-                        <img src={lfim} alt="lfim" />
+                    <article className={styles.shiftContainer}> 
+                        <div className={styles.shift}>
+                            <img src={lfim} alt="lfim" />
 
-                        <p className={styles.text}>
-                            Lowest fees in market
-                        </p>
-                    </div>
+                            <p className={styles.text}>
+                                Lowest fees in market
+                            </p>
+                        </div>
 
-                    <div className={styles.shift}>
-                        <img src={fst} alt="fst" />
+                        <div className={styles.shift}>
+                            <img src={fst} alt="fst" />
 
-                        <p className={styles.text}>
-                            Fast and secure transactions
-                        </p>
-                    </div>
+                            <p className={styles.text}>
+                                Fast and secure transactions
+                            </p>
+                        </div>
 
-                    <div className={styles.shift}>
-                        <img src={bse} alt="bse" />
+                        <div className={styles.shift}>
+                            <img src={bse} alt="bse" />
 
-                        <p className={styles.text}>
-                            256-bit secure encryption
-                        </p>
-                    </div>
+                            <p className={styles.text}>
+                                256-bit secure encryption
+                            </p>
+                        </div>
+                    </article>
                 </article>
-            </article>
+            </AnimationOnScroll>
         </Hstack>
 
         <section className={styles.container}>
@@ -298,104 +313,110 @@ const Home: React.FC = ()=> {
             </Hstack>
 
             <article className={styles.banner}>
-                <div>
-                    <img src={banner} alt="banner" />
+                <AnimationOnScroll delay={300} animateIn='animate__backInLeft'>
+                    <div>
+                        <img src={banner} alt="banner" />
 
-                    <div className={styles.products}>products</div>
+                        <div className={styles.products}>products</div>
 
-                    <Cards bg="#010D50" className='basics'>
-                        <h5>
-                            The Basics about Cryptocurrency
-                        </h5>
+                        <Cards bg="#010D50" className='basics'>
+                            <h5>
+                                The Basics about Cryptocurrency
+                            </h5>
 
-                        <p className={styles.text}>
-                            Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. 
-                            Scelerisque viverra donec diammeo.
-                        </p>
+                            <p className={styles.text}>
+                                Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. 
+                                Scelerisque viverra donec diammeo.
+                            </p>
 
-                        <hr />
+                            <hr />
 
-                        <div className={styles.bannerCont}>
-                            <img src={alex} alt="alex" />
-
-                            <div>
-                                <h6>
-                                    john carter
-                                </h6>
+                            <div className={styles.bannerCont}>
+                                <img src={alex} alt="alex" />
 
                                 <div>
-                                    {currMonth}{" "}{currDay}{", "}{currYear}
+                                    <h6>
+                                        john carter
+                                    </h6>
+
+                                    <div>
+                                        {currMonth}{" "}{currDay}{", "}{currYear}
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </Cards>
-                </div>
+                        </Cards>
+                    </div>
+                </AnimationOnScroll>
 
-                <div>
-                    <img src={banner} alt="banner" />
+                <AnimationOnScroll delay={300} animateIn='animate__backInUp'>
+                    <div>
+                        <img src={banner} alt="banner" />
 
-                    <div className={styles.products}>products</div>
+                        <div className={styles.products}>products</div>
 
-                    <Cards bg="#010D50" className='basics'>
-                        <h5>
-                            The Basics about Cryptocurrency
-                        </h5>
+                        <Cards bg="#010D50" className='basics'>
+                            <h5>
+                                The Basics about Cryptocurrency
+                            </h5>
 
-                        <p className={styles.text}>
-                            Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. 
-                            Scelerisque viverra donec diammeo.
-                        </p>
+                            <p className={styles.text}>
+                                Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. 
+                                Scelerisque viverra donec diammeo.
+                            </p>
 
-                        <hr />
+                            <hr />
 
-                        <div className={styles.bannerCont}>
-                            <img src={alex} alt="alex" />
-
-                            <div>
-                                <h6>
-                                    john carter
-                                </h6>
+                            <div className={styles.bannerCont}>
+                                <img src={alex} alt="alex" />
 
                                 <div>
-                                    {currMonth}{" "}{currDay}{", "}{currYear}
+                                    <h6>
+                                        john carter
+                                    </h6>
+
+                                    <div>
+                                        {currMonth}{" "}{currDay}{", "}{currYear}
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </Cards>
-                </div>
+                        </Cards>
+                    </div>
+                </AnimationOnScroll>
 
-                <div>
-                    <img src={banner} alt="banner" />
+                <AnimationOnScroll delay={300} animateIn='animate__backInRight'>
+                    <div>
+                        <img src={banner} alt="banner" />
 
-                    <div className={styles.products}>products</div>
+                        <div className={styles.products}>products</div>
 
-                    <Cards bg="#010D50" className='basics'>
-                        <h5>
-                            The Basics about Cryptocurrency
-                        </h5>
+                        <Cards bg="#010D50" className='basics'>
+                            <h5>
+                                The Basics about Cryptocurrency
+                            </h5>
 
-                        <p className={styles.text}>
-                            Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. 
-                            Scelerisque viverra donec diammeo.
-                        </p>
+                            <p className={styles.text}>
+                                Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. 
+                                Scelerisque viverra donec diammeo.
+                            </p>
 
-                        <hr />
+                            <hr />
 
-                        <div className={styles.bannerCont}>
-                            <img src={alex} alt="alex" />
-
-                            <div>
-                                <h6>
-                                    john carter
-                                </h6>
+                            <div className={styles.bannerCont}>
+                                <img src={alex} alt="alex" />
 
                                 <div>
-                                    {currMonth}{" "}{currDay}{", "}{currYear}
+                                    <h6>
+                                        john carter
+                                    </h6>
+
+                                    <div>
+                                        {currMonth}{" "}{currDay}{", "}{currYear}
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </Cards>
-                </div>
+                        </Cards>
+                    </div>
+                </AnimationOnScroll>
             </article>
 
             <Button linkTo="/blog" bg="rgba(255, 255, 255, 0.10)" color='#FFFFFF'>
@@ -416,45 +437,49 @@ const Home: React.FC = ()=> {
             </Hstack>
 
             <div className={styles.download}>
-                <Cards bg="#010D50"  className="downloadCards">
-                    <h2>
-                        Download for iOS
-                    </h2>
+                <AnimationOnScroll delay={300} animateIn='animate__rollIn'>
+                    <Cards bg="#010D50"  className="downloadCards">
+                        <h2>
+                            Download for iOS
+                        </h2>
 
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris sed nulla integer in pellentesque tortor semper elementum. Felis.
-                    </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Mauris sed nulla integer in pellentesque tortor semper elementum. Felis.
+                        </p>
 
-                    <Button linkTo="#" bg="#0328EE" color='#FFFFFF'>
-                        <span>
-                            <img src={appStore} alt="app-store" />
-                        </span> 
-                        app store
-                    </Button>
+                        <Button linkTo="#" bg="#0328EE" color='#FFFFFF'>
+                            <span>
+                                <img src={appStore} alt="app-store" />
+                            </span> 
+                            app store
+                        </Button>
 
-                    <img src={iPhones} alt="iphones" />
-                </Cards>
+                        <img src={iPhones} alt="iphones" />
+                    </Cards>
+                </AnimationOnScroll>
 
-                <Cards bg="#010D50" className="downloadCards">
-                    <h2>
-                        Download for Android
-                    </h2>
+                <AnimationOnScroll delay={300} animateIn='animate__rollIn'>
+                    <Cards bg="#010D50" className="downloadCards">
+                        <h2>
+                            Download for Android
+                        </h2>
 
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris sed nulla integer in pellentesque tortor semper elementum. Felis.
-                    </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Mauris sed nulla integer in pellentesque tortor semper elementum. Felis.
+                        </p>
 
-                    <Button linkTo="#" bg="#0328EE" color='#FFFFFF'>
-                        <span>
-                            <img src={playStore} alt="play-store" />
-                        </span> 
-                        play store
-                    </Button>
+                        <Button linkTo="#" bg="#0328EE" color='#FFFFFF'>
+                            <span>
+                                <img src={playStore} alt="play-store" />
+                            </span> 
+                            play store
+                        </Button>
 
-                    <img src={samsung} alt="samsung" />
-                </Cards>
+                        <img src={samsung} alt="samsung" />
+                    </Cards>
+                </AnimationOnScroll>
             </div>
         </section>
 

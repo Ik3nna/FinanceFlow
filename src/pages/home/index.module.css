@@ -203,7 +203,7 @@
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
-.banner > div > img {
+.banner > div > div > img {
     position: absolute;
     width: 378px;
     border-top-left-radius: 40px;
@@ -689,7 +689,7 @@
         padding-top: 0;
         position: relative;
     }
-    .banner > div {
+    .banner > div  {
         max-width: 100%;
         width: 90%;
         position: relative;
@@ -697,7 +697,7 @@
     .banner > div:nth-of-type(2) {
         margin: 30px auto;
     }
-    .banner > div > img {
+    .banner > div > div > img {
         position: relative;
         left: 50%;
         transform: translateX(-50%);
