@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./index.module.css";
 import moreStyles from "../../pages/home/index.module.css"
 import footerStyles from "../footer/index.module.css";
+import aboutStyles from "../../pages/about/index.module.css";
 
 interface CardsProps {
   children: React.ReactNode,
@@ -16,6 +17,7 @@ const Cards: React.FC<CardsProps> = ({ children, bg, className }) => {
       ${styles.cards} 
       ${moreStyles[className]} 
       ${footerStyles[className]}
+      ${aboutStyles[className]}
     `}
     style={{
       backgroundColor: `${bg}`
