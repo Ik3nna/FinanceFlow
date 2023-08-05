@@ -43,6 +43,13 @@
 .container article:nth-of-type(2) p {
     width: 496px;
 }
+.container .cardsContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 30px;
+    margin: auto;
+}
 .container article:nth-of-type(2) > div:nth-of-type(1) {
     margin-bottom: 20px;
 }
@@ -61,4 +68,98 @@
 }
 .innerCards p {
     width: 402px !important;
+}
+
+
+
+/* 3rd article */
+.planet {
+    margin-top: 60px;
+    position: relative;
+}
+.planet p {
+    text-align: justify;
+    margin: 0px auto 80px;
+    width: 600px;
+}
+.planet h2 {
+    margin-bottom: 20px;
+}
+.planet img {
+    position: absolute;
+    top: 0;
+    right: -6%;
+}
+
+
+
+/* 4th article */
+.timeline p {
+    width: 382px;
+    text-align: justify;
+}
+.timelineC {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 100%;
+    width: 90%;
+    margin: auto;
+}
+.timelineCont {
+    display: flex;
+    column-gap: 20px;
+    align-items: flex-start;
+}
+.timelineCont img {
+    width: 15px;
+    height: 15px;
+}
+.timeline hr {
+    width: 100%;
+    margin: 20px auto 30px;
+}
+
+
+
+/* 5th article */
+.container article:nth-of-type(5) div:nth-of-type(1) {
+    margin-bottom: 40px !important;
+}
+.container article:nth-of-type(5) p {
+    width: 496px;
+}
+.container article:nth-of-type(5) h6 {
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.8px;
+}
+.container article:nth-of-type(5) h6:nth-of-type(1) {
+    margin-top: 10px;
+}
+.container article:nth-of-type(5) h6:nth-of-type(2), .timelineCont p:nth-of-type(2)  {
+    font-weight: 400 !important;
+    opacity: 0.6;
+}
+.teamCard {
+    width: 360px;
+}
+
+
+
+/* 6th article */
+.investors {
+    max-width: 100%;
+    width: 90%;
+    margin: -30px auto 150px !important;
+    text-align: center;
+}
+.investors p {
+    width: 496px;
+    margin: 20px auto;
+}
+.investors img {
+    max-width: 100%;
+    width: 90%;
+    margin: auto;
 }
