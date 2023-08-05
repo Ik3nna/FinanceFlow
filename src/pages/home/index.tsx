@@ -92,7 +92,7 @@ const Home: React.FC = ()=> {
 
             <article>
                 <Vstack>
-                    <AnimationOnScroll delay={300} animateIn='animate__bounceInDown'>
+                    <AnimationOnScroll delay={200} animateIn='animate__bounceInDown'>
                         <Cards bg="#010D50" className="sndr">
                             <img src={sndr} alt="sndr" />
 
@@ -107,7 +107,7 @@ const Home: React.FC = ()=> {
                         </Cards>
                     </AnimationOnScroll>
                     
-                    <AnimationOnScroll delay={300} animateIn='animate__bounceInUp'>
+                    <AnimationOnScroll delay={200} animateIn='animate__bounceInUp'>
                         <Cards bg="#010D50" className="sndr">
                             <img src={sw} alt="sndr" />
 
@@ -123,7 +123,7 @@ const Home: React.FC = ()=> {
                     </AnimationOnScroll>
                 </Vstack>
 
-                <AnimationOnScroll delay={300} animateIn='animate__zoomInDown'>
+                <AnimationOnScroll delay={200} animateIn='animate__zoomInDown'>
                     <Cards bg="#0328EE" className="iosCard">
                         <h6>
                             iOS & Android App
@@ -139,7 +139,7 @@ const Home: React.FC = ()=> {
                 </AnimationOnScroll>
 
                 <Vstack>
-                    <AnimationOnScroll delay={300} animateIn='animate__bounceInDown'>
+                    <AnimationOnScroll delay={200} animateIn='animate__bounceInDown'>
                         <Cards bg="#010D50" className="sndr">
                             <img src={tc} alt="sndr" />
 
@@ -154,7 +154,7 @@ const Home: React.FC = ()=> {
                         </Cards>
                     </AnimationOnScroll>
                     
-                    <AnimationOnScroll delay={300} animateIn='animate__bounceInUp'>
+                    <AnimationOnScroll delay={200} animateIn='animate__bounceInUp'>
                         <Cards bg="#010D50" className="sndr">
                             <img src={rtt} alt="sndr" />
 
@@ -177,11 +177,11 @@ const Home: React.FC = ()=> {
         </section>
 
         <Hstack>
-            <AnimationOnScroll delay={300} animateIn='animate__zoomInUp'>
+            <AnimationOnScroll delay={200} animateIn='animate__zoomInUp'>
                 <img src={group} alt="group-phones" className={styles.grp} />
             </AnimationOnScroll>
 
-            <AnimationOnScroll delay={300} animateIn='animate__zoomInUp'>
+            <AnimationOnScroll delay={200} animateIn='animate__zoomInUp'>
                 <article>
                     <h2 className={styles.header2}>
                         Earn daily rewards on your idle tokens
@@ -312,7 +312,7 @@ const Home: React.FC = ()=> {
             </Hstack>
 
             <article className={styles.banner}>
-                <AnimationOnScroll delay={300} animateIn='animate__backInLeft'>
+                <AnimationOnScroll delay={200} animateIn='animate__backInLeft'>
                     <div>
                         <img src={banner} alt="banner" />
 
@@ -347,7 +347,7 @@ const Home: React.FC = ()=> {
                     </div>
                 </AnimationOnScroll>
 
-                <AnimationOnScroll delay={300} animateIn='animate__backInUp'>
+                <AnimationOnScroll delay={200} animateIn='animate__backInUp'>
                     <div>
                         <img src={banner} alt="banner" />
 
@@ -382,7 +382,7 @@ const Home: React.FC = ()=> {
                     </div>
                 </AnimationOnScroll>
 
-                <AnimationOnScroll delay={300} animateIn='animate__backInRight'>
+                <AnimationOnScroll delay={200} animateIn='animate__backInRight'>
                     <div>
                         <img src={banner} alt="banner" />
 
@@ -436,7 +436,7 @@ const Home: React.FC = ()=> {
             </Hstack>
 
             <div className={styles.download}>
-                <AnimationOnScroll delay={300} animateIn='animate__rollIn'>
+                <AnimationOnScroll delay={200} animateIn='animate__rollIn'>
                     <Cards bg="#010D50"  className="downloadCards">
                         <h2>
                             Download for iOS
@@ -458,7 +458,7 @@ const Home: React.FC = ()=> {
                     </Cards>
                 </AnimationOnScroll>
 
-                <AnimationOnScroll delay={300} animateIn='animate__rollIn'>
+                <AnimationOnScroll delay={200} animateIn='animate__rollIn'>
                     <Cards bg="#010D50" className="downloadCards">
                         <h2>
                             Download for Android

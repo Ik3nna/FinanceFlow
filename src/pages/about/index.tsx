@@ -3,6 +3,7 @@ import styles from "./index.module.css";
 import Hstack from '../../layouts/hstack';
 import Vstack from '../../layouts/vstack';
 import Cards from '../../components/cards';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 // assets 
 import openSource from "../../assets/open-source.svg";
@@ -44,75 +45,83 @@ const About: React.FC = () => {
 
             <div className={styles.cardsContainer}>
                 <Vstack>
-                    <Cards bg="#010D50" className="aboutCard">
-                        <div className={styles.innerCards}>
-                            <img src={openSource} alt="open-source" />
+                    <AnimationOnScroll delay={200} animateIn='animate__bounceInDown'>
+                        <Cards bg="#010D50" className="aboutCard">
+                            <div className={styles.innerCards}>
+                                <img src={openSource} alt="open-source" />
 
-                            <div>
-                                <h4>
-                                    Open Source
-                                </h4>  
+                                <div>
+                                    <h4>
+                                        Open Source
+                                    </h4>  
 
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Et nibh urna in proin dui purus bibendum cras. Morbi cursus nunc.
-                                </p>
-                            </div> 
-                        </div>
-                    </Cards>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Et nibh urna in proin dui purus bibendum cras. Morbi cursus nunc.
+                                    </p>
+                                </div> 
+                            </div>
+                        </Cards>
+                    </AnimationOnScroll>
 
-                    <Cards bg="#010D50" className="aboutCard">
-                        <div className={styles.innerCards}>
-                            <img src={transparent} alt="open-source" />
+                    <AnimationOnScroll delay={200} animateIn='animate__bounceInDown'>
+                        <Cards bg="#010D50" className="aboutCard">
+                            <div className={styles.innerCards}>
+                                <img src={transparent} alt="open-source" />
 
-                            <div>
-                                <h4>
-                                    Transparent
-                                </h4>  
+                                <div>
+                                    <h4>
+                                        Transparent
+                                    </h4>  
 
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Et nibh urna in proin dui purus bibendum cras. Morbi cursus nunc.
-                                </p>
-                            </div> 
-                        </div>
-                    </Cards>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Et nibh urna in proin dui purus bibendum cras. Morbi cursus nunc.
+                                    </p>
+                                </div> 
+                            </div>
+                        </Cards>
+                    </AnimationOnScroll>
                 </Vstack>
 
                 <Vstack>
-                    <Cards bg="#010D50" className="aboutCard">
-                        <div className={styles.innerCards}>
-                            <img src={worldwide} alt="open-source" />
+                    <AnimationOnScroll delay={200} animateIn='animate__backInUp'>
+                        <Cards bg="#010D50" className="aboutCard">
+                            <div className={styles.innerCards}>
+                                <img src={worldwide} alt="open-source" />
 
-                            <div>
-                                <h4>
-                                    Worldwide
-                                </h4>  
+                                <div>
+                                    <h4>
+                                        Worldwide
+                                    </h4>  
 
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Et nibh urna in proin dui purus bibendum cras. Morbi cursus nunc.
-                                </p>
-                            </div> 
-                        </div>
-                    </Cards>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Et nibh urna in proin dui purus bibendum cras. Morbi cursus nunc.
+                                    </p>
+                                </div> 
+                            </div>
+                        </Cards>
+                    </AnimationOnScroll>
+                   
+                    <AnimationOnScroll delay={200} animateIn='animate__backInUp'>
+                        <Cards bg="#010D50" className="aboutCard">
+                            <div className={styles.innerCards}>
+                                <img src={community} alt="open-source" />
 
-                    <Cards bg="#010D50" className="aboutCard">
-                        <div className={styles.innerCards}>
-                            <img src={community} alt="open-source" />
+                                <div>
+                                    <h4>
+                                        Community Driven
+                                    </h4>  
 
-                            <div>
-                                <h4>
-                                    Community Driven
-                                </h4>  
-
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Et nibh urna in proin dui purus bibendum cras. Morbi cursus nunc.
-                                </p>
-                            </div> 
-                        </div>
-                    </Cards>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Et nibh urna in proin dui purus bibendum cras. Morbi cursus nunc.
+                                    </p>
+                                </div> 
+                            </div>
+                        </Cards>
+                    </AnimationOnScroll>
                 </Vstack>
             </div>
         </article>
@@ -251,29 +260,35 @@ const About: React.FC = () => {
             </Hstack>
 
             <div className={styles.cardsContainer}>
-                <Cards bg="#010D50" className="teamCard">
-                    <img src={john} alt="john" />
+                <AnimationOnScroll delay={200} animateIn='animate__rollIn'>
+                    <Cards bg="#010D50" className="teamCard">
+                        <img src={john} alt="john" />
 
-                    <h6>JOHN CARTER</h6>
+                        <h6>JOHN CARTER</h6>
 
-                    <h6>CEO & CO-FOUNDER</h6>
-                </Cards>
+                        <h6>CEO & CO-FOUNDER</h6>
+                    </Cards>
+                </AnimationOnScroll>
+                
+                <AnimationOnScroll delay={200} animateIn='animate__rollIn'>
+                    <Cards bg="#010D50" className="teamCard">
+                        <img src={sophie} alt="sophie" />
 
-                <Cards bg="#010D50" className="teamCard">
-                    <img src={sophie} alt="sophie" />
+                        <h6>SOPHIE MOORE</h6>
 
-                    <h6>SOPHIE MOORE</h6>
+                        <h6>COMMUNITY LEAD</h6>
+                    </Cards>
+                </AnimationOnScroll>
+        
+                <AnimationOnScroll delay={200} animateIn='animate__rollIn'>
+                    <Cards bg="#010D50" className="teamCard">
+                        <img src={alex} alt="alex" />
 
-                    <h6>COMMUNITY LEAD</h6>
-                </Cards>
+                        <h6>ALEX TURNER</h6>
 
-                <Cards bg="#010D50" className="teamCard">
-                    <img src={alex} alt="alex" />
-
-                    <h6>ALEX TURNER</h6>
-
-                    <h6>OPERATIONS</h6>
-                </Cards>
+                        <h6>OPERATIONS</h6>
+                    </Cards>
+                </AnimationOnScroll>
             </div>
         </article>
 
