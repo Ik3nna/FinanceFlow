@@ -163,3 +163,187 @@
     width: 90%;
     margin: auto;
 }
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container article:nth-of-type(2) p {
+        width: 400px;
+    }
+    .container .cardsContainer {
+        column-gap: 20px;
+    }
+    /* Cards */
+    .aboutCard {
+        width: 470px;
+        height: 240px;
+    } 
+    .container .innerCards p {
+        width: 360px !important;
+    }
+
+    /* 3rd article */
+    .planet p {
+        width: 450px;
+    }
+    .planet img {
+        width: 60%;
+    }
+
+    /* 5th article */
+    .container article:nth-of-type(5) p {
+        width: 400px;
+    }
+    .cardsContainer img {
+        width: 100%;
+    }
+    .teamCard {
+        width: 300px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .container h2 {
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .container h4 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25.992px;
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+    }
+    .main h1 {
+        font-size: 48px;
+        line-height: 62px;
+    }
+
+    .container article:nth-of-type(2) p {
+        width: 370px;
+    }
+    .container .cardsContainer {
+        column-gap: 20px;
+    }
+    /* Cards */
+    .aboutCard {
+        width: 350px;
+        height: 220px;
+    } 
+    .container .innerCards img {
+        width: 15%;
+    }
+    .container .innerCards p {
+        width: 250px !important;
+    }
+
+    /* 3rd article */
+    .planet p {
+        width: 350px;
+        margin: 0px auto 50px;
+    }
+    .planet img {
+        width: 60%;
+    }
+
+    /* 4th article */
+    .timeline p {
+        width: 330px;
+    }
+    .timelineCont {
+        column-gap: 10px;
+    }
+    .timelineCont img {
+        width: 10px;
+        height: 10px;
+    }
+   
+    /* 5th article */
+    .container article:nth-of-type(5) p {
+        width: 370px;
+    }
+    .cardsContainer img {
+        width: 100%;
+    }
+    .container .teamCard {
+        width: 230px;
+    }
+
+    .investors {
+        margin: -50px auto 100px !important;
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+    .container h2 {
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .container h4 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25.992px;
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+    }
+    .main h1 {
+        font-size: 48px;
+        line-height: 62px;
+    }
+
+
+
+    
+    .container article:nth-of-type(2) p {
+        width: 370px;
+    }
+    .container .cardsContainer {
+        column-gap: 20px;
+    }
+    /* Cards */
+    .aboutCard {
+        width: 350px;
+        height: 220px;
+    } 
+    .container .innerCards img {
+        width: 15%;
+    }
+    .container .innerCards p {
+        width: 250px !important;
+    }
+
+    /* 3rd article */
+    .planet p {
+        width: 350px;
+        margin: 0px auto 50px;
+    }
+    .planet img {
+        width: 60%;
+    }
+
+    /* 4th article */
+    .timeline p {
+        width: 330px;
+    }
+    .timelineCont {
+        column-gap: 10px;
+    }
+    .timelineCont img {
+        width: 10px;
+        height: 10px;
+    }
+   
+    /* 5th article */
+    .container article:nth-of-type(5) p {
+        width: 370px;
+    }
+    .cardsContainer img {
+        width: 100%;
+    }
+    .container .teamCard {
+        width: 230px;
+    }
+
+    .investors {
+        margin: -50px auto 100px !important;
+        text-align: center;
+    }
+}
