@@ -163,6 +163,9 @@
     width: 90%;
     margin: auto;
 }
+.investors img:nth-of-type(2) {
+    display: none;
+}
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -273,55 +276,97 @@
     }
 }
 @media (max-width: 767px) {
+    .container article {
+        margin-bottom: 40px;
+    }
     .container h2 {
-        font-size: 35px;
-        line-height: 48px;
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
     }
     .container h4 {
         font-size: 18px;
-        font-weight: 700;
         line-height: 25.992px;
-        letter-spacing: 0.9px;
-        text-transform: uppercase;
     }
     .main h1 {
-        font-size: 48px;
-        line-height: 62px;
+        font-size: 38px;
+        line-height: 46px;
+        max-width: 100%;
+        width: 90%;
+        margin: auto;
     }
-
-
-
+    .main p {
+        max-width: 100%;
+        width: 90%;
+        margin: 10px auto 0px;
+    }
     
     .container article:nth-of-type(2) p {
-        width: 370px;
+        max-width: 100%;
+        width: 90%;
+        margin: auto;
+        text-align: center;
     }
     .container .cardsContainer {
-        column-gap: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     /* Cards */
     .aboutCard {
-        width: 350px;
-        height: 220px;
+       max-width: 100%;
+       width: 90%;
+       height: fit-content;
+       margin: auto;
     } 
+    .innerCards {
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 10px;
+    }
     .container .innerCards img {
         width: 15%;
     }
     .container .innerCards p {
-        width: 250px !important;
+        width: 100% !important;
+        text-align: left !important;
     }
 
     /* 3rd article */
+    .planet {
+        margin-top: 0px;
+    }
     .planet p {
-        width: 350px;
-        margin: 0px auto 50px;
+        max-width: 100%;
+        width: 90%;
+        margin: 0px auto 30px;
     }
     .planet img {
-        width: 60%;
+        position: relative;
+        width: 100%;
     }
 
     /* 4th article */
     .timeline p {
-        width: 330px;
+        max-width: 100%;
+        width: 90%;
+        margin: auto;
+    }
+    .timelineC {
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .container .timelineCont {
+        column-gap: 30px;
+        max-width: 100%;
+        width: 90%;
+    }
+    .container .timelineCont h4 {
+        max-width: 100%;
+        width: 90%;
+        margin: auto;
     }
     .timelineCont {
         column-gap: 10px;
@@ -332,8 +377,14 @@
     }
    
     /* 5th article */
+    .container article:nth-of-type(5) div:nth-of-type(1) {
+        margin-bottom: 20px !important;
+    }
     .container article:nth-of-type(5) p {
-        width: 370px;
+        max-width: 100%;
+        width: 90%;
+        margin: auto;
+        text-align: center;
     }
     .cardsContainer img {
         width: 100%;
@@ -343,7 +394,21 @@
     }
 
     .investors {
-        margin: -50px auto 100px !important;
+        margin: -40px auto 60px !important;
         text-align: center;
+    }
+    .investors p {
+        max-width: 100%;
+        width: 90%;
+        margin: auto;
+    }
+    .investors img:nth-of-type(1) {
+        display: none;
+    }
+    .investors img:nth-of-type(2) {
+        display: block;
+        max-width: 100%;
+        width: 90%;
+        margin: 40px auto 0px;
     }
 }

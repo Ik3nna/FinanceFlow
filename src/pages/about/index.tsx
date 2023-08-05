@@ -15,6 +15,7 @@ import john from "../../assets/john-carter.svg";
 import sophie from "../../assets/sophie-moore.svg";
 import alex from "../../assets/alex-turner.svg";
 import company from "../../assets/company.svg";
+import mobCompany from "../../assets/mobile-logos.svg";
 
 const About: React.FC = () => {
   return (
@@ -287,6 +288,8 @@ const About: React.FC = () => {
             </p>
 
             <img src={company} alt="company" />
+
+            <img src={mobCompany} alt="company" />
         </article>
     </section>
   );
