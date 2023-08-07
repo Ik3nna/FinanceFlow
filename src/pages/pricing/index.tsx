@@ -4,6 +4,7 @@ import Cards from '../../components/cards';
 import Hstack from '../../layouts/hstack';
 import Vstack from '../../layouts/vstack';
 import Button from '../../components/button';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 // assets
 import snr from "../../assets/sndr.svg";
@@ -50,125 +51,131 @@ const Pricing: React.FC = () => {
       </article>
 
       <article>
-        <Cards bg="#010D50" className="pricingCards">
-          <div className={styles.tags}>Basic</div>
+        <AnimationOnScroll delay={200} animateIn='animate__rollIn'>
+          <Cards bg="#010D50" className="pricingCards">
+            <div className={styles.tags}>Basic</div>
 
-          <h2>$ 100 USD</h2>
+            <h2>$ 100 USD</h2>
 
-          <p>
-            Lorem ipsum dolor sit amet, ametor consectetur adipiscing elit. Et nibh.
-          </p>
+            <p>
+              Lorem ipsum dolor sit amet, ametor consectetur adipiscing elit. Et nibh.
+            </p>
 
-          <div>
-            <h4>FEATURES</h4>
+            <div>
+              <h4>FEATURES</h4>
 
-            <Vstack>
-              <div className={styles.dotContainer}>
-                <div className={styles.dot}></div>
-                <p>Everything included in Basic</p>
-              </div>
+              <Vstack>
+                <div className={styles.dotContainer}>
+                  <div className={styles.dot}></div>
+                  <p>Everything included in Basic</p>
+                </div>
 
-              <div className={styles.dotContainer}>
-                <div className={styles.dot}></div>
-                <p>Trading up to $1M per month</p>
-              </div>
+                <div className={styles.dotContainer}>
+                  <div className={styles.dot}></div>
+                  <p>Trading up to $1M per month</p>
+                </div>
 
-              <div className={styles.dotContainer}>
-                <div className={styles.dot}></div>
-                <p>Windows & macOS App</p>
-              </div>
+                <div className={styles.dotContainer}>
+                  <div className={styles.dot}></div>
+                  <p>Windows & macOS App</p>
+                </div>
 
-              <div className={styles.dotContainer}>
-                <div className={styles.dot}></div>
-                <p>Premium Support</p>
-              </div>
-            </Vstack>
-          </div>
+                <div className={styles.dotContainer}>
+                  <div className={styles.dot}></div>
+                  <p>Premium Support</p>
+                </div>
+              </Vstack>
+            </div>
 
-          <Button linkTo="/contact" bg="#0328EE" color="#FFF">
-            contact us
-          </Button>
-        </Cards>
+            <Button linkTo="/contact" bg="#0328EE" color="#FFF">
+              contact us
+            </Button>
+          </Cards>
+        </AnimationOnScroll>
 
-        <Cards bg="#010D50" className="pricingCards">
-          <div className={styles.tags}>Pro</div>
+        <AnimationOnScroll delay={200} animateIn='animate__rollIn'>
+          <Cards bg="#010D50" className="pricingCards">
+            <div className={styles.tags}>Pro</div>
 
-          <h2>$ 100 USD</h2>
+            <h2>$ 100 USD</h2>
 
-          <p>
-            Lorem ipsum dolor sit amet, ametor consectetur adipiscing elit. Et nibh.
-          </p>
+            <p>
+              Lorem ipsum dolor sit amet, ametor consectetur adipiscing elit. Et nibh.
+            </p>
 
-          <div>
-            <h4>FEATURES</h4>
+            <div>
+              <h4>FEATURES</h4>
 
-            <Vstack>
-              <div className={styles.dotContainer}>
-                <div className={styles.dot}></div>
-                <p>Everything included in Pro</p>
-              </div>
+              <Vstack>
+                <div className={styles.dotContainer}>
+                  <div className={styles.dot}></div>
+                  <p>Everything included in Pro</p>
+                </div>
 
-              <div className={styles.dotContainer}>
-                <div className={styles.dot}></div>
-                <p>Trading up to $1M per month</p>
-              </div>
+                <div className={styles.dotContainer}>
+                  <div className={styles.dot}></div>
+                  <p>Trading up to $1M per month</p>
+                </div>
 
-              <div className={styles.dotContainer}>
-                <div className={styles.dot}></div>
-                <p>Windows & macOS App</p>
-              </div>
+                <div className={styles.dotContainer}>
+                  <div className={styles.dot}></div>
+                  <p>Windows & macOS App</p>
+                </div>
 
-              <div className={styles.dotContainer}>
-                <div className={styles.dot}></div>
-                <p>Premium Support</p>
-              </div>
-            </Vstack>
-          </div>
+                <div className={styles.dotContainer}>
+                  <div className={styles.dot}></div>
+                  <p>Premium Support</p>
+                </div>
+              </Vstack>
+            </div>
 
-          <Button linkTo="/contact" bg="#0328EE" color="#FFF">
-            contact us
-          </Button>
-        </Cards>
+            <Button linkTo="/contact" bg="#0328EE" color="#FFF">
+              contact us
+            </Button>
+          </Cards>
+        </AnimationOnScroll>
 
-        <Cards bg="#010D50" className="pricingCards">
-          <div className={styles.tags}>Expert</div>
+        <AnimationOnScroll delay={200} animateIn='animate__rollIn'>
+          <Cards bg="#010D50" className="pricingCards">
+            <div className={styles.tags}>Expert</div>
 
-          <h2>$ 100 USD</h2>
+            <h2>$ 100 USD</h2>
 
-          <p>
-            Lorem ipsum dolor sit amet, ametor consectetur adipiscing elit. Et nibh.
-          </p>
+            <p>
+              Lorem ipsum dolor sit amet, ametor consectetur adipiscing elit. Et nibh.
+            </p>
 
-          <div>
-            <h4>FEATURES</h4>
+            <div>
+              <h4>FEATURES</h4>
 
-            <Vstack>
-              <div className={styles.dotContainer}>
-                <div className={styles.dot}></div>
-                <p>Everything included in Expert</p>
-              </div>
+              <Vstack>
+                <div className={styles.dotContainer}>
+                  <div className={styles.dot}></div>
+                  <p>Everything included in Expert</p>
+                </div>
 
-              <div className={styles.dotContainer}>
-                <div className={styles.dot}></div>
-                <p>Trading up to $1M per month</p>
-              </div>
+                <div className={styles.dotContainer}>
+                  <div className={styles.dot}></div>
+                  <p>Trading up to $1M per month</p>
+                </div>
 
-              <div className={styles.dotContainer}>
-                <div className={styles.dot}></div>
-                <p>Windows & macOS App</p>
-              </div>
+                <div className={styles.dotContainer}>
+                  <div className={styles.dot}></div>
+                  <p>Windows & macOS App</p>
+                </div>
 
-              <div className={styles.dotContainer}>
-                <div className={styles.dot}></div>
-                <p>Premium Support</p>
-              </div>
-            </Vstack>
-          </div>
+                <div className={styles.dotContainer}>
+                  <div className={styles.dot}></div>
+                  <p>Premium Support</p>
+                </div>
+              </Vstack>
+            </div>
 
-          <Button linkTo="/contact" bg="#0328EE" color="#FFF">
-            contact us
-          </Button>
-        </Cards>
+            <Button linkTo="/contact" bg="#0328EE" color="#FFF">
+              contact us
+            </Button>
+          </Cards>
+        </AnimationOnScroll>
       </article>
     </section>
   )
