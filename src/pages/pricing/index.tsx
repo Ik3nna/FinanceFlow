@@ -4,7 +4,6 @@ import Cards from '../../components/cards';
 import Hstack from '../../layouts/hstack';
 import Vstack from '../../layouts/vstack';
 import Button from '../../components/button';
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 // assets
 import snr from "../../assets/sndr.svg";
@@ -51,7 +50,6 @@ const Pricing: React.FC = () => {
       </article>
 
       <article>
-        <AnimationOnScroll delay={200} animateIn='animate__rollIn'>
           <Cards bg="#010D50" className="pricingCards">
             <div className={styles.tags}>Basic</div>
 
@@ -91,9 +89,7 @@ const Pricing: React.FC = () => {
               contact us
             </Button>
           </Cards>
-        </AnimationOnScroll>
 
-        <AnimationOnScroll delay={200} animateIn='animate__rollIn'>
           <Cards bg="#010D50" className="pricingCards">
             <div className={styles.tags}>Pro</div>
 
@@ -133,9 +129,7 @@ const Pricing: React.FC = () => {
               contact us
             </Button>
           </Cards>
-        </AnimationOnScroll>
 
-        <AnimationOnScroll delay={200} animateIn='animate__rollIn'>
           <Cards bg="#010D50" className="pricingCards">
             <div className={styles.tags}>Expert</div>
 
@@ -175,7 +169,6 @@ const Pricing: React.FC = () => {
               contact us
             </Button>
           </Cards>
-        </AnimationOnScroll>
       </article>
     </section>
   )
