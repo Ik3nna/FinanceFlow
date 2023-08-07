@@ -59,7 +59,7 @@
     margin: 30px auto;
 }
 .pricingCards {
-    width: 381px !important;
+    width: 381px;
     height: 612px;
 }
 .tags {
@@ -93,4 +93,69 @@
 .container a {
     margin: 0px auto !important;
     width: 100%;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container h1 {
+        font-size: 66px;
+        line-height: 79.992px;
+    }
+    .container h2 {
+        font-size: 42px;
+        line-height: 55.02px;
+    }
+    .container h4 {
+        font-size: 18px;
+        line-height: 25.992px;
+    }
+    .subcontainers {
+        column-gap: 10px;
+    }
+    .subcontainers img {
+        width: 48px;
+        height: 48px;
+    }
+    .container > article:nth-of-type(2) {
+        column-gap: 15px;
+    }
+}
+@media (max-width: 767px) {
+    .container h1 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+    .container p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .container h4 {
+        margin: 20px auto 0px;
+    }
+    /* 1st article */
+    .container > article:nth-of-type(1) {
+        margin-top: 50px;
+    }
+    .container > article:nth-of-type(1) > div {
+        align-items: flex-start;
+        row-gap: 20px;
+    }
+    .container > article:nth-of-type(1) > p {
+        max-width: 100%;
+        width: 90%;
+        margin: 0px auto 20px;
+    }
+    /* 2nd article */
+    .container > article:nth-of-type(2) {
+        flex-direction: column;
+        row-gap: 30px;
+        margin: 30px auto;
+    }
+    .pricingCards {
+        max-width: 100%;
+        width: 90%;
+        height: fit-content;
+    }
+    
 }
