@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './pages/home';
 import About from './pages/about';
 import Pricing from './pages/pricing';
+import Tokens from './pages/tokens';
 
 const App: React.FC = ()=> {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = ()=> {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/pricing" element={<Pricing />} />
+          <Route path="/tokens" element={<Tokens />} />
           <Route path="/" element={<Navigate replace to="/home" />} />
           <Route path="/*" element= {<Navigate replace to="/404" />} />
         </Routes>
