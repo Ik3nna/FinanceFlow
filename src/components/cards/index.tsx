@@ -3,6 +3,7 @@ import styles from "./index.module.css";
 import moreStyles from "../../pages/home/index.module.css"
 import footerStyles from "../footer/index.module.css";
 import aboutStyles from "../../pages/about/index.module.css";
+import pricingStyles from "../../pages/pricing/index.module.css";
 
 interface CardsProps {
   children: React.ReactNode,
@@ -18,6 +19,7 @@ const Cards: React.FC<CardsProps> = ({ children, bg, className }) => {
       ${moreStyles[className]} 
       ${footerStyles[className]}
       ${aboutStyles[className]}
+      ${pricingStyles[className]}
     `}
     style={{
       backgroundColor: `${bg}`
