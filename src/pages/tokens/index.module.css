@@ -1,0 +1,39 @@
+.container {
+    margin: 70px auto 100px;
+    color: var(--text);
+}
+.container article:nth-of-type(1) {
+    max-width: 100%;
+    width: 90%;
+    margin: 0px auto 60px;
+    text-align: center;
+}
+.container h1 {
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 79.992px;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+.container > article:nth-of-type(1) p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.004px;
+    width: 568px;
+    margin: auto;
+}
+
+@media (max-width: 767px) {
+    .container h1 {
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 46px;
+        letter-spacing: -1px;
+    }
+    .container > article:nth-of-type(1) p {
+        max-width: 100%;
+        width: 90%;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
