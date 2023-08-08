@@ -38,7 +38,7 @@
 
 @media (max-width: 991px) {
     .tableWrapper {
-        overflow-x: scroll; 
+        overflow-x: auto; 
         position: relative;
         max-width: 100%;
         width: 90%;
