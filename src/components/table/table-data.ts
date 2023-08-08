@@ -9,7 +9,7 @@ export const Data = [
         id: 1,
         icon: btc,
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        marCap: "$572,490,180,376",
+        marCap: "$572,490,180,376 USD",
         vol: "$14,604,055,131 USD",
         website: "https://www.bitcoin.com/"
     },
