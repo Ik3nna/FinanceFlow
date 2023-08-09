@@ -9,6 +9,8 @@ import Tokens from './pages/tokens';
 import Blog from "./pages/blog";
 import BlogPost from './pages/blogpost';
 
+import PageNotFound from './pages/404';
+
 const App: React.FC = ()=> {
   return (
     <>
@@ -22,6 +24,8 @@ const App: React.FC = ()=> {
           <Route path="/tokens" element={<Tokens />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:id" element={<BlogPost />} />
+
+          <Route path="/404" element={<PageNotFound />} />
           <Route path="/" element={<Navigate replace to="/home" />} />
           <Route path="/*" element= {<Navigate replace to="/404" />} />
         </Routes>
