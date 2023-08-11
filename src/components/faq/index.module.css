@@ -16,3 +16,7 @@
     opacity: 0.6;
     padding-top: 10px;
 }
+.container hr {
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    margin: 20px auto;
+}

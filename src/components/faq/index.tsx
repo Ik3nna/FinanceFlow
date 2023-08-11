@@ -29,7 +29,7 @@ const FAQ = ({ questNum, desc }: FAQProps) => {
             <p>
                 {desc}
             </p>
-        }
+        }<hr />
     </section>
   )
 }
