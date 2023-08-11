@@ -1,0 +1,51 @@
+.component {
+    color: var(--text);
+    margin: 70px auto;
+}
+.component article {
+    max-width: 100%;
+    width: 90%;
+    margin: auto;
+}
+.component h1 {
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 79.992px;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+}
+.component h4 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30.998px;
+    letter-spacing: 0.22px;
+}
+.component .hstack {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.component .hstack > div  {
+    row-gap: 10px;
+}
+.component .hstack > div > div {
+    row-gap: 15px;
+}
+.component .hstack > div > div > div {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.component .hstack > div > p {
+    width: 300px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.004px;
+}
+.component a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.998px;
+    color: var(--text);
+}

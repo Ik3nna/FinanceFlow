@@ -4,9 +4,9 @@
     font-weight: 700;
     line-height: 25.992px;
     letter-spacing: 0.9px;
-    max-width: 100%;
+    /* max-width: 100%;
     width: 90%;
-    margin: auto;
+    margin: auto; */
 }
 .subComponents {
     display: flex;
@@ -43,6 +43,6 @@
 @media (max-width: 767px) {
     .subComponents {
         flex-direction: column;
-        
+
     }
 }
