@@ -13,7 +13,7 @@ const Header: React.FC = ()=> {
         { id: 3, item: "pricing", linkTo: "/pricing"},
         { id: 4, item: "tokens", linkTo: "/tokens"},
         { id: 5, item: "blog", linkTo: "/blog"},
-        { id: 6, item: "contact us", linkTo: "/contact"}
+        { id: 5, item: "contact us", linkTo: "/contact"}
     ]
 
     const navLinkClass = ({ isActive }: { isActive: boolean }): string => {

@@ -3,32 +3,10 @@ import styles from "./index.module.css";
 import Form from '../../components/form';
 import Vstack from '../../layouts/vstack';
 import FAQ from '../../components/faq';
+import { data } from './data';
 
 // assets 
 import message from "../../assets/message.svg";
-
-const data = [
-  {
-    id: 1,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui pharetra elementum sit id sagittis non donec egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui pharetra elementum sit id sagittis non donec egestas."
-  },
-  {
-    id: 2,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui pharetra elementum sit id sagittis non donec egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui pharetra elementum sit id sagittis non donec egestas."
-  },
-  {
-    id: 3,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui pharetra elementum sit id sagittis non donec egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui pharetra elementum sit id sagittis non donec egestas."
-  },
-  {
-    id: 4,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui pharetra elementum sit id sagittis non donec egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui pharetra elementum sit id sagittis non donec egestas."
-  },
-  {
-    id: 5,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui pharetra elementum sit id sagittis non donec egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui pharetra elementum sit id sagittis non donec egestas."
-  }
-]
 
 const Contact: React.FC = () => {
   return (
