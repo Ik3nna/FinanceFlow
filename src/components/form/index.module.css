@@ -1,0 +1,48 @@
+.component {
+    color: var(--text);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.992px;
+    letter-spacing: 0.9px;
+    max-width: 100%;
+    width: 90%;
+    margin: auto;
+}
+.subComponents {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.subComponents label {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.subComponents > div {
+    display: flex;
+    flex-direction: column;
+}
+.subComponents > div input {
+    width: 364px;
+    padding: 20.5px 24.995px;
+    border-radius: 100px;
+    border: 1px solid var(--bgColor);
+    background: var(--cardColor);
+    margin-bottom: 15px;
+}
+.subComponents > div input::placeholder {
+    font-weight: 400 !important;
+    line-height: 27px !important;
+}
+.subComponents:nth-of-type(3) > div input {
+    width: 753px;
+    padding-top: 20.5px;
+    padding-bottom: 150px;
+    border-radius: 14px;
+}
+
+@media (max-width: 767px) {
+    .subComponents {
+        flex-direction: column;
+        
+    }
+}
