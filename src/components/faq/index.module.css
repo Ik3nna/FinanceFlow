@@ -1,0 +1,18 @@
+.container {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.container > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.004px;
+    text-align: justify;
+    opacity: 0.6;
+    padding-top: 10px;
+}

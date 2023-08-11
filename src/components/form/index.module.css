@@ -39,6 +39,17 @@
     padding-bottom: 150px;
     border-radius: 14px;
 }
+.component button {
+    background: var(--containerColor);
+    border-radius: 80px;
+    padding: 20px 25px;
+    color: var(--text);
+    margin-top: 20px;
+}
+.component button:hover {
+    transform: scale(0.9);
+}
+
 
 @media (max-width: 767px) {
     .subComponents {

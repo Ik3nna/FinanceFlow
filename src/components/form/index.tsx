@@ -2,8 +2,13 @@ import React from 'react';
 import styles from "./index.module.css";
 
 const Form: React.FC = () => {
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+
+  }
+
   return (
-    <form className={styles.component}>
+    <form className={styles.component} onSubmit={handleSubmit}>
       <section className={styles.subComponents}>
         <div>
           <label htmlFor='name'>Name</label>
@@ -39,6 +44,10 @@ const Form: React.FC = () => {
           <input type="text" placeholder='Your Message' />
         </div>
       </section>
+
+      <button type="submit">
+        SEND MESSAGE
+      </button>
     </form>
   )
 }
