@@ -34,7 +34,7 @@ const Form: React.FC = () => {
   });
 
   const onSubmit = (data: UserSubmitForm) => {
-    
+    console.log(JSON.stringify(data, null, 2));
   };
 
   return (
