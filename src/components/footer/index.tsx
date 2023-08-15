@@ -27,8 +27,7 @@ const Footer: React.FC = () => {
 
   const navItem2 = [
     { id: 4, item: "tokens", linkTo: "/tokens"},
-    { id: 5, item: "blog", linkTo: "/blog"},
-    { id: 6, item: "contact us", linkTo: "/contact"}
+    { id: 5, item: "contact us", linkTo: "/contact"}
   ]
 
   return (

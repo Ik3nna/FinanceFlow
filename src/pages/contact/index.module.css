@@ -58,3 +58,36 @@
     width: 90%;
     margin: 70px auto;
 }
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .component h1 {
+        font-size: 50px !important;
+        line-height: 69.992px !important;
+    }
+    .component h4 {
+        font-size: 17px;
+        line-height: 25.998px;
+    }
+    .component .hstack > div > p {
+        width: 280px;
+        font-size: 16px;
+        line-height: 30.004px;
+    }
+}
+@media (max-width: 767px) {
+    .component h1 {
+        font-size: 38px;
+        line-height: 46px;
+        letter-spacing: -1px
+    }
+    .component .hstack {
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+    }
+    .component .hstack > div > p {
+        text-align: left;
+    }
+}
+

@@ -12,7 +12,6 @@ const Header: React.FC = ()=> {
         { id: 2, item: "about", linkTo: "/about"},
         { id: 3, item: "pricing", linkTo: "/pricing"},
         { id: 4, item: "tokens", linkTo: "/tokens"},
-        { id: 5, item: "blog", linkTo: "/blog"},
         { id: 5, item: "contact us", linkTo: "/contact"}
     ]
 

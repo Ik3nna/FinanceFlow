@@ -4,9 +4,6 @@
     font-weight: 700;
     line-height: 25.992px;
     letter-spacing: 0.9px;
-    /* max-width: 100%;
-    width: 90%;
-    margin: auto; */
 }
 .subComponents {
     display: flex;
@@ -51,9 +48,50 @@
 }
 
 
+@media (min-width: 992px) and (max-width: 1199px) {
+    .subComponents {
+        column-gap: 20px;
+    }
+    .subComponents > div input {
+        width: 280px;
+    }
+    .subComponents:nth-of-type(3) > div input {
+        width: 570px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .subComponents {
+        column-gap: 10px;
+    }
+    .subComponents label {
+        font-size: 17px;
+        line-height: 25.998px;
+    }
+    .subComponents > div input {
+        width: 25vw;
+    }
+    .subComponents:nth-of-type(3) > div input {
+        width: calc(50vw + 10px);
+    }
+}
 @media (max-width: 767px) {
     .subComponents {
         flex-direction: column;
-
+    }
+    .subComponents > div input {
+        width: 80vw;
+    }
+    .subComponents:nth-of-type(3) > div input {
+        width: 80vw;
+        border-radius: 14px;
+    }
+    .subComponents label {
+        font-size: 18px;
+        line-height: 25.992px; 
+        letter-spacing: 0.9px;
+    }
+    .component button {
+        width: 100%;
+        margin: auto;
     }
 }

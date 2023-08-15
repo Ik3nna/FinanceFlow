@@ -133,6 +133,9 @@
 }
 
 @media (max-width: 767px) {
+    .footer nav {
+        align-items: flex-start;
+    }
     .icons {
         margin-top: 20px;
     }

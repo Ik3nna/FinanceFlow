@@ -418,7 +418,7 @@ const Home: React.FC = ()=> {
                 </AnimationOnScroll>
             </article>
 
-            <Button linkTo="/blog" bg="rgba(255, 255, 255, 0.10)" color='#FFFFFF'>
+            <Button linkTo="#" bg="rgba(255, 255, 255, 0.10)" color='#FFFFFF'>
                 view all articles
             </Button>
         </section>
