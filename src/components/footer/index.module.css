@@ -47,7 +47,7 @@
 }
 .footer nav {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     column-gap: 60px;
     margin-top: 20px;
 }
@@ -133,9 +133,6 @@
 }
 
 @media (max-width: 767px) {
-    .footer nav {
-        align-items: flex-start;
-    }
     .icons {
         margin-top: 20px;
     }

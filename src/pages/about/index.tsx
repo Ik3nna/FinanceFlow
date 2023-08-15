@@ -10,7 +10,7 @@ import openSource from "../../assets/open-source.svg";
 import transparent from "../../assets/transparent.svg";
 import worldwide from "../../assets/worldwide.svg";
 import community from "../../assets/community.svg";
-import planet from "../../assets/planet.svg";
+import planet from "../../assets/planet.png";
 import point from "../../assets/point.svg";
 import john from "../../assets/john-carter.svg";
 import sophie from "../../assets/sophie-moore.svg";

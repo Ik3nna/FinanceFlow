@@ -750,6 +750,7 @@
     .downloadCards {
         max-width: 100%;
         width: 90%;
+        margin: auto;
         height: 580px;
     }
     .download p {
