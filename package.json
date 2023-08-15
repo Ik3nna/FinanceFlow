@@ -10,14 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.2.0",
     "animate.css": "^4.1.1",
     "framer-motion": "^10.12.16",
     "react": "^18.2.0",
     "react-animation-on-scroll": "^5.1.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.4",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.12.1",
-    "react-table": "^7.8.0"
+    "react-table": "^7.8.0",
+    "yup": "^1.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

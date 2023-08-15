@@ -46,6 +46,10 @@
 .component button:hover {
     transform: scale(0.9);
 }
+.component .errorMessage {
+    color: #FF8080;
+    margin: -10px 0 10px;
+}
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
