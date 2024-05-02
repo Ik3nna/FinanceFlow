@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
             <ul>
               {navItem1.map((navlink)=>
                 <li key={navlink.id}>
-                  <NavLink className={navLinkClass} to={navlink.linkTo}>
+                  <NavLink className={navLinkClass} to={navlink.linkTo} onClick={()=>window.scroll(0, 0)}>
                     {navlink.item}
                   </NavLink>
                 </li>
@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
             <ul>
               {navItem2.map((navlink)=>
                 <li key={navlink.id}>
-                  <NavLink className={navLinkClass} to={navlink.linkTo}>
+                  <NavLink className={navLinkClass} to={navlink.linkTo} onClick={()=>window.scroll(0, 0)}>
                     {navlink.item}
                   </NavLink>
                 </li>
