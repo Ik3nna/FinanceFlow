@@ -9,6 +9,11 @@
     position: relative;
 }
 
+@media (min-width: 2200px) {
+    .container {
+        width: 60%;
+    }
+}
 @media (max-width: 1199px) {
     .container{
         column-gap: 30px;

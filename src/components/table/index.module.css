@@ -35,7 +35,11 @@
 }
 
 
-
+@media (min-width: 2200px) {
+    .table {
+        width: 60%;
+    }
+}
 @media (max-width: 991px) {
     .tableWrapper {
         overflow-x: auto; 

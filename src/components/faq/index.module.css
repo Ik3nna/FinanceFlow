@@ -21,6 +21,7 @@
     margin: 20px auto;
 }
 
+
 @media (max-width: 767px) {
     .container {
         width: 90%;

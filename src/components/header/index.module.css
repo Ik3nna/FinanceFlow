@@ -33,7 +33,11 @@ header img {
 }
 
 
-
+@media (min-width: 2200px) {
+    .header {
+        width: 60%;
+    }
+}
 @media (min-width: 768px) and (max-width: 991px) {
     header img {
         margin-right: 30px;

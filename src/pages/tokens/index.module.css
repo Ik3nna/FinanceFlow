@@ -23,6 +23,11 @@
     margin: auto;
 }
 
+@media (min-width: 2200px) {
+    .container article:nth-of-type(1) {
+        width: 60%;
+    }
+}
 @media (max-width: 767px) {
     .container h1 {
         font-size: 38px;
